@@ -1,0 +1,120 @@
+<div class="content-wrapper" style="">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="scorebook-container">
+        <!-- <div class="scorebook-db-bar">
+          <div class="custom-select scorebook-db">
+            <select>
+              <option value="0">Select Database:</option>
+              <option value="1">Database 1</option>
+              <option value="2">Database 2</option>
+              <option value="3">Database 3</option>
+              <option value="4">Database 4</option>
+          </select>
+        <div class="select-selected select-arrow-active">Select Database:</div><div class="select-items"><div>Database 1</div><div>Database 2</div><div>Database 3</div><div>Database 4</div></div>
+          </div>
+          
+        </div> -->
+        <div class="scorebook">
+          <div class="scorebook_tab">
+            <div class="tabs-container">
+                <nav class="tabs">
+
+                  <ul>
+                    <!-- TBD height alignment pending and datatab not setting -->
+                    <ng-template ngFor let-score [ngForOf]="scorebookrecord" let-i="index">
+                       <li [attr.id]="'li-' + i" [attr.data-tab]="'tab-' + i" [attr.data-scoreNo]="i"  [class.active] = "i == 0" (click)="clicked($event)">{{score.scorebookSection}}</li>
+                    </ng-template>
+                  </ul>
+ 
+                </nav>
+            </div>
+          </div>
+          <div class="scorebook_content">
+            <ng-template ngFor let-score [ngForOf]="scorebookrecord" let-i="index">
+              <div [attr.id]="'tab-' + i"  [attr.data-tab]="'tab-' + i"  class="tab-content"  [class.current] = "i == 0">
+              
+                <div class="row">
+                  <div class="col-lg-5" style="height: 540px;">
+                    <div class="scorebook_name">{{score.scorebookSection}}</div>
+                    <div class="score_detail">{{score.description}}</div>
+                    <div class="score_cta">
+                      <ul>
+                        <li><a href="#"><img src="/assets/given/img/visualize.png" width="43" height="41" alt=""/>Visualize</a></li>
+                        <li><a href="#"><img src="/assets/given/img/download.png" width="34" height="36" alt=""/>Download</a></li>
+                        <li><a href="#"><img src="/assets/given/img/report.png" width="38" height="40" alt=""/>Custom Reports</a></li>
+                        <li><a href="#"><img src="/assets/given/img/compare.png" width="38" height="36" alt=""/>Compare</a></li>
+                      </ul>
+                    </div>
+                    
+                  </div>
+                  <div class="col-lg-7 black-tr-bg">
+                    <div class="score_selection black-tr-bg">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <select class="scorebook_dropdown" name="scorebook-db" id="">
+                            <option value="volvo">------</option>
+                              <option value="saab">Saab</option>
+                              <option value="mercedes">Mercedes</option>
+                              <option value="audi">Audi</option>
+                          </select>
+                        </div>
+                        <div class="col-lg-4">
+                        <select class="scorebook_dropdown" name="scorebook-db" id="">
+                            <option value="volvo">------</option>
+                              <option value="saab">Saab</option>
+                              <option value="mercedes">Mercedes</option>
+                              <option value="audi">Audi</option>
+                          </select>
+                        </div>
+                        <div class="col-lg-3">
+                          <button class="cta">Submit</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="score-table">
+                      <ul>
+                        <ng-template ngFor let-sParam [ngForOf]="score.scoreParameters" let-i="index">
+                          <ng-template [ngIf]="i<25">
+                            <li style="border-bottom:#c0ce1f 1px solid;"><a href="#"><p>{{sParam.lineItemText}}</p><span>{{sParam.lineitemcount}} </span></a></li>
+                          </ng-template>
+                        </ng-template>
+                      </ul>
+                    
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="faculty_names" >
+                          <p>Faculty with most <br>number of {{score.scorebookSection}}s</p>
+                          <div class="profile_pic"><img  width="254" height="254" alt=""/>{{score.userImageFileLocation}}</div>
+                          <!-- <p class="name">{{score.scholar.name}}</p> -->
+                      
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="faculty_names">
+                      
+                          <p>Faculty with most <br>number of {{score.scorebookSection}}s</p>
+                          <div class="profile_pic">
+                          
+                            <img src="/assets/given/img/profile-pic.jpg" width="254" height="254" alt=""/></div>
+                          <p class="name">Name of Faculty</p>
+                      
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+                       
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>

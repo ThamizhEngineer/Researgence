@@ -1,0 +1,198 @@
+<html>
+  <head>
+    <title>Article</title>
+
+    <link rel="stylesheet" href="/assets/given/css/style.css" />
+  </head>
+
+  <div class="brand clearfix">
+    <div class="card-panel">
+      <img src="/assets/given/img/alma.png" class="alma" alt="alma" />
+
+      <img
+        class="reslogo"
+        src="/assets/given/img/researgence-logo.png"
+        alt="reslogo"
+      />
+    </div>
+  </div>
+
+  <header>
+    <h3 class="head" *ngFor="let data of row">{{ data.title }}</h3>
+  </header>
+  <body>
+    <div class="titles" *ngFor="let data of row">
+      <a href="" style="font-size: large">
+        <h6 class="title1">{{ data.sourcePublication }}</h6>
+      </a>
+      <h6 class="headown">
+        Year: {{ data.year }} , Volume:
+        {{ data.vol_No }} , Issue:
+        {{ data.issue_No }} , Page:
+        {{ data.b_Page }} , P_issn: {{ data.issn }} , E_issn: {{ data.e_ISSN }}
+      </h6>
+      <img class="wiley" src="assets/given/img/author-logo-wiley.jpg" alt="wiley"/>
+      <img class="download" src="assets/given/img/download_btn.jpg" alt="download"/>
+    </div>
+
+    <br />
+
+    <div
+      class="panel-group"
+      id="accordion"
+      role="tablist"
+      aria-multiselectable="true"
+    >
+      <div class="panel panel-default" *ngFor="let data of row">
+        <div class="rank_bar">
+          <p class="p1">
+            Impact Factor
+
+            <span id="ImpactFactor">{{ data.impact_Factor }}</span>
+          </p>
+
+          <p class="p1">
+            SNIP <span id="SNIP">{{ data.snip }}</span>
+          </p>
+
+          <p class="p1">
+            Rank <span id="Q1Journal">{{ data.q_Rank }}</span>
+          </p>
+
+          <img
+            class="oa"
+            src="/assets/given/img/open_access.png"
+            alt="open access"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="body1">
+      <div class="body2" *ngFor="let data of row">
+        <div class="row1">
+          <p>{{ data.abstract }}</p>
+        </div>
+
+        <div class="a_author"></div>
+
+        <div class="row2">
+          <hr class="hr1" style="width: 95%" />
+
+          <a href="">
+            <h5 class="l">Publisher Website ></h5>
+          </a>
+
+          <a href="">
+            <h5 class="l1">Google Scholar ></h5>
+          </a>
+
+          <a href="">
+            <h5 class="l2">PubMed ></h5> </a
+          ><br />
+
+          <a href="" class="a_data" style="text-align: start">
+            Doi:{{ data.link }}
+          </a>
+
+          <hr class="hr2" style="width: 95%" />
+        </div>
+
+        <div class="author-block">
+          <h4 class="text-bold" style="font-weight: bold">
+            Authors From Other University :
+          </h4>
+
+          <div class="author" *ngFor="let t of data.authorAffiliation">
+            <img src="/assets/given/img/profile-pic3.jpg" />
+
+            <h4 class="text-bold">{{ t.split(",")[0] }}</h4>
+
+            <p class="location">
+              {{ t.split(",")[1] }} , {{ t.split(",")[2] }} ,
+              {{ t.split(",")[3] }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-2">
+        <div class="rows-1">
+          <div class="article_data" *ngFor="let data of row">
+            <p>SCS <span>Indexed </span></p>
+
+            <p *ngIf="!Indexed" style="opacity: 0.2">WOS <span> </span></p>
+
+            <p *ngIf="!data.IEEE" style="opacity: 0.2">
+              IEEE <span> {{ data.ieee }}</span>
+            </p>
+
+            <p *ngIf="!data.PubMed" style="opacity: 0.2">
+              PubMed <span> {{ data.pubmed }} </span>
+            </p>
+
+            <p>Scholar <span> Indexed </span></p>
+
+            <p>UGC Care <span>Indexed</span></p>
+
+            <p *ngIf="!Indexed" style="opacity: 0.2">ABDC <span> </span></p>
+          </div>
+        </div>
+
+        <div class="rows-2" *ngFor="let data of row">
+          <div class="tech_area" id="TechArea">
+            <h4 class="text-bold">Technology Areas:</h4>
+
+            <p class="a_category" *ngFor="let t of data.technology_Areas">
+              {{ t }}
+            </p>
+          </div>
+        </div>
+
+        <div class="rows-3">
+          <div class="gray-box">
+            <table class="date-table">
+              <tbody *ngFor="let data of row">
+                <tr>
+                  <td width="300px">Submitted</td>
+
+                  <td width="135px">:</td>
+
+                  <td id="SubmittedDate"></td>
+                </tr>
+
+                <tr>
+                  <td>Accepted</td>
+
+                  <td>:</td>
+
+                  <td id="AcceptedDate"></td>
+                </tr>
+
+                <tr>
+                  <td>Published Online</td>
+
+                  <td>:</td>
+
+                  <td id="PublishedDate">
+                    {{ data.online_Date | date : "dd-MM-yyyy" }}
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Printed</td>
+
+                  <td>:</td>
+
+                  <td id="PrintedDate"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+  </body>
+</html>

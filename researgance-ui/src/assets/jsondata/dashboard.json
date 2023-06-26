@@ -1,0 +1,146 @@
+[
+  {
+    "moduleName": "Publications",
+    "totalCount": 14067,
+    "lineItem1Text": "Number of Publications in 2023",
+    "lineItem1Count": 631,
+    "lineItem2Text": "Number of Publications in February 2023",
+    "lineItem2Count": 187
+  },
+  {
+    "moduleName": "Faculty",
+    "totalCount": 1250,
+    "lineItem1Text": "Number of Contributors in 2023",
+    "lineItem1Count": 212,
+    "lineItem2Text": "Number of Contributors in February 2023",
+    "lineItem2Count": 100
+  },
+  {
+    "moduleName": "Scholars",
+    "totalCount": 173,
+    "lineItem1Text": "Number of Contributors in 2023",
+    "lineItem1Count": 41,
+    "lineItem2Text": "Number of Contributors in February 2023",
+    "lineItem2Count": 20
+  },
+  {
+    "moduleName": "Sponsored Projects",
+    "totalCount": 206,
+    "lineItem1Text": "Total Amount Received ",
+    "lineItem1Count": 612,
+    "lineItem2Text": "Total number of funding agencies",
+    "lineItem2Count": 89
+  },
+  {
+    "moduleName": "Consultancy Projects",
+    "totalCount": 176,
+    "lineItem1Text": "Total Amount Received ",
+    "lineItem1Count": 212,
+    "lineItem2Text": "Total number of funding agencies",
+    "lineItem2Count": 73
+  },
+  {
+    "moduleName": "EDP",
+    "totalCount": 316,
+    "lineItem1Text": "Number of Participants",
+    "lineItem1Count": 3895,
+    "lineItem2Text": "Total Earnings",
+    "lineItem2Count": 4
+  },
+  {
+    "moduleName": "Patents",
+    "totalCount": 118,
+    "lineItem1Text": "Number of Patents Published ",
+    "lineItem1Count": 93,
+    "lineItem2Text": "Number of patents granted ",
+    "lineItem2Count": 25
+  },
+  {
+    "moduleName": "Copyrights",
+    "totalCount": 18,
+    "lineItem1Text": "Number of Copyrights filed in 2022",
+    "lineItem1Count": 6,
+    "lineItem2Text": "Number of copyrights Registered ",
+    "lineItem2Count": 15
+  },
+  {
+    "moduleName": "Trademarks",
+    "totalCount": 9,
+    "lineItem1Text": "Number of trademarks filed in 2022",
+    "lineItem1Count": 4,
+    "lineItem2Text": "Number of trademarks Registered ",
+    "lineItem2Count": 5
+  },
+  {
+    "moduleName": "Guideship",
+    "totalCount": 779,
+    "lineItem1Text": "Number of completed PHD's",
+    "lineItem1Count": 588,
+    "lineItem2Text": "Active Scholars in 2023",
+    "lineItem2Count": 173
+  },
+  {
+    "moduleName": "Editorship",
+    "totalCount": 39,
+    "lineItem1Text": "Number of Peer reviews",
+    "lineItem1Count": 241,
+    "lineItem2Text": "Number of Editorial Memberships ",
+    "lineItem2Count": 46
+  },
+  {
+    "moduleName": "Membership",
+    "totalCount": 29,
+    "lineItem1Text": "Number of Industry Memberships",
+    "lineItem1Count": 21,
+    "lineItem2Text": "Number of Honorary Memberships",
+    "lineItem2Count": 6
+  },
+  {
+    "moduleName": "Books",
+    "totalCount": 716,
+    "lineItem1Text": "Number of Books",
+    "lineItem1Count": 52,
+    "lineItem2Text": "Number of Book Chapters",
+    "lineItem2Count": 664
+  },
+  {
+    "moduleName": "Conferences",
+    "totalCount": 1886,
+    "lineItem1Text": "Number of Conferences Hosted",
+    "lineItem1Count": 206,
+    "lineItem2Text": "Numbers of Conferences Participated",
+    "lineItem2Count": 1680
+  },
+  {
+    "moduleName": "Digital Content",
+    "totalCount": 1187,
+    "lineItem1Text": "Digital Content in 2022",
+    "lineItem1Count": 303,
+    "lineItem2Text": "Digital Content in Feb 2023",
+    "lineItem2Count": 45
+  },
+  {
+    "moduleName": "MOU",
+    "totalCount": 212,
+    "lineItem1Text": "International MOU's",
+    "lineItem1Count": 104,
+    "lineItem2Text": "National MOU's",
+    "lineItem2Count": 108
+  },
+  {
+    "moduleName": "Technology Licensing",
+    "totalCount": 11,
+    "lineItem1Text": "Total Earnings",
+    "lineItem1Count": 14,
+    "lineItem2Text": "Total Earnings in 2023",
+    "lineItem2Count": 0
+  },
+  {
+    "moduleName": "Products",
+    "totalCount": 2,
+    "lineItem1Text": "Total Earnings",
+    "lineItem1Count": 3,
+    "lineItem2Text": "Total Earnings in 2023",
+    "lineItem2Count": 2
+  }
+]

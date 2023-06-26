@@ -1,0 +1,621 @@
+[
+    {
+    "slno": 1,
+    "Type": "Publication",
+    "Parameter": "Total Publications  ",
+    "Score": 14067
+    },
+    {
+    "slno": 2,
+    "Type": "Publication",
+    "Parameter": "Publications in Scopus ",
+    "Score": 6647
+    },
+    {
+    "slno": 3,
+    "Type": "Publication",
+    "Parameter": "Publications in Web of Science",
+    "Score": 3985
+    },
+    {
+    "slno": 4,
+    "Type": "Publication",
+    "Parameter": "Publications in Science Citation Index",
+    "Score": 2321
+    },
+    {
+    "slno": 5,
+    "Type": "Publication",
+    "Parameter": "Publications in PubMed",
+    "Score": 577
+    },
+    {
+    "slno": 6,
+    "Type": "Publication",
+    "Parameter": "Publications in IEEE",
+    "Score": 497
+    },
+    {
+    "slno": 7,
+    "Type": "Publication",
+    "Parameter": "Publications in UGC CARE",
+    "Score": 6620
+    },
+    {
+    "slno": 8,
+    "Type": "Publication",
+    "Parameter": "Publications in UGC Group 1",
+    "Score": 458
+    },
+    {
+    "slno": 9,
+    "Type": "Publication",
+    "Parameter": "Publications in ABDC",
+    "Score": 5940
+    },
+    {
+    "slno": 10,
+    "Type": "Publication",
+    "Parameter": "List of Google Scholar publications",
+    "Score": 11640
+    },
+    {
+    "slno": 11,
+    "Type": "Publication",
+    "Parameter": "Publications in non-indexed database",
+    "Score": 1587
+    },
+    {
+    "slno": 12,
+    "Type": "Publication",
+    "Parameter": "Faculty with most number of Publications – Name, Photo and count ",
+    "Score": "Chandrasekhara Venkata Raman, 685"
+    },
+    {
+    "slno": 13,
+    "Type": "Publication",
+    "Parameter": "Scholar with most number of publications– Name, Photo and count ",
+    "Score": "Rajeev Sharma, 49"
+    },
+    {
+    "slno": 14,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "Publications in Q1 journals (Scopus) -  ",
+    "Score": 1086
+    },
+    {
+    "slno": 15,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "Publications in Q2 journals (Scopus) -  ",
+    "Score": 1854
+    },
+    {
+    "slno": 16,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "Publications in Nature journals - ",
+    "Score": 28
+    },
+    {
+    "slno": 17,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "Publications in ACM conferences - ",
+    "Score": 27
+    },
+    {
+    "slno": 18,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "Publications in IEEE journals - ",
+    "Score": 59
+    },
+    {
+    "slno": 19,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "Publications in A* conferences - ",
+    "Score": 89
+    },
+    {
+    "slno": 20,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "Publications in A conferences - ",
+    "Score": 158
+    },
+    {
+    "slno": 21,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "Publications in Predatory Journals -  ",
+    "Score": 47
+    },
+    {
+    "slno": 22,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "Publication Type Analysis – Journal",
+    "Score": 12121
+    },
+    {
+    "slno": 23,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "Publication Type Analysis – Conference",
+    "Score": 1485
+    },
+    {
+    "slno":24,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "Publication Type Analysis – Book",
+    "Score": 29
+    },
+    {
+    "slno": 25,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "Publication Type Analysis – Book Chapter",
+    "Score": 433
+    },
+    {
+    "slno": 26,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "Publication Type Analysis – Preprints",
+    "Score": 37
+    },
+    {
+    "slno": 27,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "Publication Type Analysis – Erratum",
+    "Score": 67
+    },
+    {
+    "slno": 28,
+    "Type": "Key Quality Indicators ",
+    "Parameter": "List of SDG publications -  ",
+    "Score": 1457
+    },
+    {
+    "slno": 29,
+    "Type": "Productivity Index",
+    "Parameter": "Productivity Index of University -  ",
+    "Score": 1.42
+    },
+    {
+    "slno": 30,
+    "Type": "Productivity Index",
+    "Parameter": "Productivity Index in 2023 -  ",
+    "Score": 0.78
+    },
+    {
+    "slno": 31,
+    "Type": "Productivity Index",
+    "Parameter": "Productivity Index in Jan 2023 -  ",
+    "Score": 0.81
+    },
+    {
+    "slno": 32,
+    "Type": "Productivity Index",
+    "Parameter": "Faculty with Highest Productivity Index -  ",
+    "Score": 8.51
+    },
+    {
+    "slno": 33,
+    "Type": "Productivity Index",
+    "Parameter": "Faculty with Highest Productivity Index in 2023 – Name, Photo and count ",
+    "Score": "-"
+    },
+    {
+    "slno": 34,
+    "Type": "Productivity Index",
+    "Parameter": "Faculty with Highest Productivity Index in Jan 2023 – Name, Photo and count ",
+    "Score": "-"
+    },
+    {
+    "slno": 35,
+    "Type": "Citations",
+    "Parameter": "Average Citations ",
+    "Score": 12.826
+    },
+    {
+    "slno": 36,
+    "Type": "Citations",
+    "Parameter": "Citations in Scopus ",
+    "Score": 35504
+    },
+    {
+    "slno": 37,
+    "Type": "Citations",
+    "Parameter": "Citations in Web of Science ",
+    "Score": 25229
+    },
+    {
+    "slno": 38,
+    "Type": "Citations",
+    "Parameter": "Citations in Google Scholar ",
+    "Score": 57478
+    },
+    {
+    "slno": 39,
+    "Type": "Citations",
+    "Parameter": "Citations in Crossref ",
+    "Score": 59451
+    },
+    {
+    "slno": 40,
+    "Type": "Citations",
+    "Parameter": "Faculty with Highest Average Citations– Name, Photo and count ",
+    "Score": "Dr. KADIYALA CHANDRA BABU NAIDU, 13.8"
+    },
+    {
+    "slno": 41,
+    "Type": "Citations",
+    "Parameter": "Scholar with Highest Average Citations – Name, Photo and count ",
+    "Score": "Rohit Kumar, 7.1"
+    },
+    {
+    "slno": 42,
+    "Type": "Citation Index",
+    "Parameter": "Average Citation Index "
+    },
+    {
+    "slno": 43,
+    "Type": "Citation Index",
+    "Parameter": "Citation Index in Scopus "
+    },
+    {
+    "slno": 44,
+    "Type": "Citation Index",
+    "Parameter": "Citation Index in Web of Science "
+    },
+    {
+    "slno": 45,
+    "Type": "Citation Index",
+    "Parameter": "Citation Index in Google Scholar "
+    },
+    {
+    "slno": 46,
+    "Type": "Citation Index",
+    "Parameter": "Citation Index in Crossref "
+    },
+    {
+    "slno": 47,
+    "Type": "Citation Index",
+    "Parameter": "Faculty with Highest Average Citation Index – Name, Photo and count "
+    },
+    {
+    "slno": 48,
+    "Type": "Citation Index",
+    "Parameter": "Scholar with Highest Average Citation Index – Name, Photo and count "
+    },
+    {
+    "slno": 49,
+    "Type": "h-Index ",
+    "Parameter": "Average H-Index ",
+    "Score": 70
+    },
+    {
+    "slno": 50,
+    "Type": "h-Index ",
+    "Parameter": "H- Index in Scopus ",
+    "Score": 63
+    },
+    {
+    "slno": 51,
+    "Type": "h-Index ",
+    "Parameter": "H- Index in Web of Science ",
+    "Score": 56
+    },
+    {
+    "slno": 52,
+    "Type": "h-Index ",
+    "Parameter": "H- Index in Google Scholar ",
+    "Score": 88
+    },
+    {
+    "slno": 53,
+    "Type": "h-Index ",
+    "Parameter": "H- Index in Crossref ",
+    "Score": 73
+    },
+    {
+    "slno": 54,
+    "Type": "h-Index ",
+    "Parameter": "Faculty with Highest Average H-Index – Name, Photo and count ",
+    "Score": "Dr. KADIYALA CHANDRA BABU NAIDU, 16.23"
+    },
+    {
+    "slno": 55,
+    "Type": "h-Index ",
+    "Parameter": "Scholar with Highest Average H-Index – Name, Photo and count ",
+    "Score": "Ram Karan Singh, 9.12 "
+    },
+    {
+    "slno": 56,
+    "Type": "I10-Index ",
+    "Parameter": "Average i10-Index ",
+    "Score": 1013
+    },
+    {
+    "slno": 57,
+    "Type": "I10-Index ",
+    "Parameter": "i10 Index in Scopus ",
+    "Score": 929
+    },
+    {
+    "slno": 58,
+    "Type": "I10-Index ",
+    "Parameter": "i10 Index in Web of Science ",
+    "Score": 678
+    },
+    {
+    "slno": 59,
+    "Type": "I10-Index ",
+    "Parameter": "i10 Index in Google Scholar ",
+    "Score": 1420
+    },
+    {
+    "slno": 60,
+    "Type": "I10-Index ",
+    "Parameter": "i10 Index in Crossref ",
+    "Score": 1024
+    },
+    {
+    "slno": 61,
+    "Type": "I10-Index ",
+    "Parameter": "Faculty with Highest Average i10 Index – Name, Photo and count ",
+    "Score": "RAMA RAO MALLA, 41"
+    },
+    {
+    "slno": 62,
+    "Type": "I10-Index ",
+    "Parameter": "Scholar with Highest Average i10 Index – Name, Photo and counts ",
+    "Score": "Ram Karan Singh, 15 "
+    },
+    {
+    "slno": 63,
+    "Type": "Average Impact Factor",
+    "Parameter": "Average Impact Factor ",
+    "Score": 2.669
+    },
+    {
+    "slno": 64,
+    "Type": "Average Impact Factor",
+    "Parameter": "Cumulative Impact Factor ",
+    "Score": 7783.66
+    },
+    {
+    "slno": 65,
+    "Type": "Average Impact Factor",
+    "Parameter": "Mean Impact Factor ",
+    "Score": 2.669
+    },
+    {
+    "slno": 66,
+    "Type": "Average Impact Factor",
+    "Parameter": "Median Impact Factor ",
+    "Score": 2.17
+    },
+    {
+    "slno": 67,
+    "Type": "Average Impact Factor",
+    "Parameter": "Faculty with Highest Average Impact Factor ",
+    "Score": "RAMA RAO MALLA",
+    "__EMPTY": 4.988
+    },
+    {
+    "slno": 68,
+    "Type": "Average Impact Factor",
+    "Parameter": "Scholar with Highest Average Impact Factor ",
+    "Score": "RAJESH KUMAR BORRA",
+    "__EMPTY": 2.42
+    },
+    {
+    "slno": 69,
+    "Type": "Average Impact Factor",
+    "Parameter": "Faculty with Highest Cumulative Impact Factor ",
+    "Score": "RAMA RAO MALLA",
+    "__EMPTY": 214.69
+    },
+    {
+    "slno": 70,
+    "Type": "Average Impact Factor",
+    "Parameter": "Scholar with Highest Cumulative Impact Factor ",
+    "Score": "PRASUN BANERJEE",
+    "__EMPTY": 75
+    },
+    {
+    "slno": 71,
+    "Type": "Average Cite Score",
+    "Parameter": "Average Cite Score ",
+    "Score": 3.35
+    },
+    {
+    "slno": 72,
+    "Type": "Average Cite Score",
+    "Parameter": "Cumulative Cite Score ",
+    "Score": 14941.2
+    },
+    {
+    "slno": 73,
+    "Type": "Average Cite Score",
+    "Parameter": "Mean Cite Score ",
+    "Score": 3.35
+    },
+    {
+    "slno": 74,
+    "Type": "Average Cite Score",
+    "Parameter": "Median Cite Score ",
+    "Score": 2.4
+    },
+    {
+    "slno": 75,
+    "Type": "Average Cite Score",
+    "Parameter": "Faculty with Highest Average Cite Score ",
+    "Score": "RAMA RAO MALLA",
+    "__EMPTY": 6.94
+    },
+    {
+    "slno": 76,
+    "Type": "Average Cite Score",
+    "Parameter": "Scholar with Highest Average Cite Score ",
+    "Score": "BOLINENI VENKATESWARLU",
+    "__EMPTY": 1.12
+    },
+    {
+    "slno": 77,
+    "Type": "Average Cite Score",
+    "Parameter": "Faculty with Highest Cumulative Cite Score ",
+    "Score": "RAMA RAO MALLA",
+    "__EMPTY": 361
+    },
+    {
+    "slno": 78,
+    "Type": "Average Cite Score",
+    "Parameter": "Scholar with Highest Cumulative Cite Score ",
+    "Score": "PHANI KUMAR SINGAMSETTY",
+    "__EMPTY": 20.7
+    },
+    {
+    "slno": 79,
+    "Type": "Average SNIP",
+    "Parameter": "Average SNIP ",
+    "Score": 0.589
+    },
+    {
+    "slno": 80,
+    "Type": "Average SNIP",
+    "Parameter": "Cumulative SNIP ",
+    "Score": 4341.3
+    },
+    {
+    "slno": 81,
+    "Type": "Average SNIP",
+    "Parameter": "Mean SNIP ",
+    "Score": 0.589
+    },
+    {
+    "slno": 82,
+    "Type": "Average SNIP",
+    "Parameter": "Median SNIP ",
+    "Score": 0.484
+    },
+    {
+    "slno": 84,
+    "Type": "Average SNIP",
+    "Parameter": "Faculty with Highest Average SNIP ",
+    "Score": "SURESH MADDILA",
+    "__EMPTY": 1.184
+    },
+    {
+    "slno": 85,
+    "Type": "Average SNIP",
+    "Parameter": "Scholar with Highest Average SNIP ",
+    "Score": "SRINIVAS YARRAMALLE",
+    "__EMPTY": 0.222
+    },
+    {
+    "slno": 86,
+    "Type": "Average SNIP",
+    "Parameter": "Faculty with Highest Cumulative SNIP ",
+    "Score": "RAJU S K CHAKRAVARTHULA",
+    "__EMPTY": 62.97499999999998
+    },
+    {
+    "slno": 87,
+    "Type": "Average SNIP",
+    "Parameter": "Scholar with Highest Cumulative SNIP ",
+    "Score": "PRASUN BANERJEE",
+    "__EMPTY": 18.84
+    },
+    {
+    "slno": 88,
+    "Type": "Collaborations",
+    "Parameter": "Number of international collaborations –  ",
+    "Score": 1519
+    },
+    {
+    "slno": 89,
+    "Type": "Collaborations",
+    "Parameter": "Number of Industry Collaborations - ",
+    "Score": 210
+    },
+    {
+    "slno": 90,
+    "Type": "Collaborations",
+    "Parameter": "Number of Govt R&D Laboratories -  ",
+    "Score": 48
+    },
+    {
+    "slno": 91,
+    "Type": "Collaborations",
+    "Parameter": "Number of Hospital/Health-care Collaborations -  ",
+    "Score": 148
+    },
+    {
+    "slno": 92,
+    "Type": "Collaborations",
+    "Parameter": "Number of National Collaborations ",
+    "Score": 8565
+    },
+    {
+    "slno": 93,
+    "Type": "Collaborations",
+    "Parameter": "Number of Home inter-campus collaborations – ",
+    "Score": 1258
+    },
+    {
+    "slno": 94,
+    "Type": "Collaborations",
+    "Parameter": "Number of Home inter-institute collaborations ",
+    "Score": 652
+    },
+    {
+    "slno": 95,
+    "Type": "Collaborations",
+    "Parameter": "Number of Home inter-department collaborations –  ",
+    "Score": 124
+    },
+    {
+    "slno": 96,
+    "Type": "Collaborations",
+    "Parameter": "Number of International Authors –  ",
+    "Score": 2466
+    },
+    {
+    "slno": 97,
+    "Type": "Collaborations",
+    "Parameter": "Faculty with Highest International Collaborations ",
+    "Score": "BALAJI RAVURI",
+    "__EMPTY": 19
+    },
+    {
+    "slno": 98,
+    "Type": "Collaborations",
+    "Parameter": "Scholar with Highest International Collaborations ",
+    "Score": "Robun Ravi",
+    "__EMPTY": 9
+    },
+    {
+    "slno": 99,
+    "Type": "Rankings",
+    "Parameter": "Number of NIRF eligible publications -   ",
+    "Score": 2902
+    },
+    {
+    "slno": 100,
+    "Type": "Rankings",
+    "Parameter": "Number of NAAC eligible publications -  ",
+    "Score": 4627
+    },
+    {
+    "slno": 101,
+    "Type": "Rankings",
+    "Parameter": "Number of QS Eligible publications ",
+    "Score": 4019
+    },
+    {
+    "slno": 102,
+    "Type": "Rankings",
+    "Parameter": "Number of THE eligible publications ",
+    "Score": 3658
+    },
+    {
+    "slno": 103,
+    "Type": "Rankings",
+    "Parameter": "Number of Shanghai eligible publications ",
+    "Score": 2231
+    }
+]

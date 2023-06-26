@@ -1,0 +1,808 @@
+<style>
+  .modals {
+    display: block;
+    position: fixed;
+    top: 244px;
+    left: 514px;
+    width: 30%;
+    height: 47%;
+    z-index: 9999;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .modalmain {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    /* -webkit-overflow-scrolling: touch; */
+    outline: 0;
+  }
+  div#myModal8 {
+    backdrop-filter: brightness(0.977);
+  }
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+  }
+</style>
+<div class="ts-main-content">
+  <div class="content-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12" style="margin-left: -112px; margin-top: 22px">
+          <div
+            class="profile_expand"
+            #header
+            [ngClass]="{'profile_collapse': isScrolled, 'profile_expand': !isScrolled}"
+          >
+            <!-- [ngStyle]="{'margin-left': isMenuOpen ? '0' : '260px'}" -->
+            <div class="profile">
+              <!-- [ngStyle]="{'margin-right': isMenuOpen ? '0px' : '383px'}" -->
+              <div class="hexa photo">
+                <div class="hex1">
+                  <div class="hex2">
+                    <span
+                      *ngIf="this.faculty?.empid!='ISC001'&&this.faculty?.empid!='ISC002'&&this.faculty?.empid!='ISC003'  &&this.faculty?.empid!='ISC004'&&this.faculty?.empid!='ISC005'"
+                      > 
+                      <img src="{{imageSrc}}" />
+                    </span>
+                    <span>
+                      <span *ngIf="this.faculty?.empid=='ISC001'">
+                        <img src="{{facultyimages[0]}}" />
+                      </span>
+                      <span *ngIf="this.faculty?.empid=='ISC002'">
+                        <img src="{{facultyimages[1]}}" />
+                      </span>
+                      <span *ngIf="this.faculty?.empid=='ISC003'">
+                        <img src="{{facultyimages[2]}}" />
+                      </span>
+                      <span *ngIf="this.faculty?.empid=='ISC004'">
+                        <img src="{{facultyimages[3]}}" />
+                      </span>
+                      <span *ngIf="this.faculty?.empid=='ISC005'">
+                        <img src="{{facultyimages[4]}}" />
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <h3 class="name" id="name" style="top: -87px">
+                {{this.faculty?.authorName}}
+              </h3>
+              <h4 class="designation" id="designation" style="top: -88px">
+                {{this.faculty?.designation}}
+              </h4>
+              <div class="detail">
+                <p>
+                  Employee ID: <span id="empId">{{this.faculty?.empid}}</span>
+                </p>
+                <p>
+                  RESEARCH AREA:
+                  <span id="researchArea">{{this.faculty?.researchArea}}</span>
+                </p>
+              </div>
+              <div class="scolar_btns" style="margin-top: 10px">
+                <a id="gsLink" href="" class="button" target="_blank"
+                  >Google Scholar</a
+                >
+                <a id="scsLink" href="" class="button" target="_blank"
+                  >Scopus</a
+                >
+                <a id="resLink" href="" class="button" target="_blank"
+                  >Researcher ID</a
+                >
+                <a id="orcLink" href="" class="button" target="_blank"
+                  >Orcid ID</a
+                >
+                <p></p>
+              </div>
+            </div>
+            <div class="highlights" style="top: 23px">
+              <div class="itm" style="border: none">
+                <div class="icon">
+                  <img
+                    src="assets/given/img/icon1.png"
+                    alt=""
+                    width="45"
+                    height="47"
+                  />
+                </div>
+                <div class="value">
+                  <span>Publications</span>
+                  <h3 id="pubCount" style="color: white">
+                    {{this.docCount?.pubCount}}
+                  </h3>
+                  <span class="publication_count_div">
+                    <p id="home" style="margin-top: 0px">
+                      {{this.docCount?.pubCountHome}}
+                    </p>
+                    <p id="away" style="margin-top: 0px">
+                      {{this.docCount?.pubCountAway}}
+                    </p>
+                  </span>
+                </div>
+              </div>
+
+              <div class="itm" style="border: none">
+                <div class="icon">
+                  <img
+                    src="assets/given/img/icon2.png"
+                    alt=""
+                    width="45"
+                    height="47"
+                  />
+                </div>
+                <div class="value">
+                  <span>Patents</span>
+                  <h3 id="patentCount" style="color: white">
+                    {{this.docCount?.patentCount}}
+                  </h3>
+                </div>
+              </div>
+
+              <div class="itm" style="border: none">
+                <div class="icon">
+                  <img
+                    class="diot"
+                    src="assets/given/img/icon3.png"
+                    alt=""
+                    width="45"
+                    height="47"
+                  />
+                </div>
+                <div class="value">
+                  <span>Projects</span>
+                  <h3 id="projectCount" style="color: white">
+                    {{this.docCount?.projectCount}}
+                  </h3>
+                </div>
+              </div>
+
+              <div class="itm" style="border: none">
+                <div class="icon">
+                  <img
+                    src="assets/given/img/icon4.png"
+                    alt=""
+                    width="45"
+                    height="47"
+                  />
+                </div>
+                <div class="valuetest">
+                  <span class="test" style="color: white; font-weight: bold"
+                    >AcademicGuidance</span
+                  >
+                  <h3
+                    id="academicGuidenceCount"
+                    style="
+                      color: white;
+                      margin-left: 56px;
+                      font-weight: bold;
+                      margin-top: 3px;
+                    "
+                  >
+                    {{this.docCount?.academicGuidanceCount}}
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row bg-white"
+        id="bg-white"
+        style="margin-top: 636px"
+        [ngStyle]="{'marginTop': (isScrolled) ? '636px': '0px!important'}"
+      >
+        <div class="col-lg-12">
+          <h2
+            class="page-title"
+            id="page-title"
+            #header
+            [ngClass]="{'fixed-title': isScrolled, 'page-title': !isScrolled}"
+          >
+            Research Details
+          </h2>
+          <div
+            class="panel-group"
+            id="accordion"
+            role="tablist"
+            aria-multiselectable="true"
+            style="margin-left: -272px; margin-right: 0px"
+          >
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a
+                    role="button"
+                    data-toggle="collapse"
+                    data-parent="#accordion"
+                    href="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Publications
+                    <span id="pubCount2">{{this.docCount?.pubCount}}</span>
+                  </a>
+                </h4>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="panel-collapse collapse in"
+                role="tabpanel"
+                aria-labelledby="headingOne"
+              >
+                <div class="panel-body">
+                  <ul class="publication_stats">
+                    <li>
+                      <span id="journal"></span>
+                      <div>{{this.articlecount?.journal}}</div>
+                      Journals
+                    </li>
+                    <li>
+                      <span id="conference"></span>
+                      <div>{{this.articlecount?.conference}}</div>
+                      Conference
+                    </li>
+                    <li>
+                      <span id="book"></span>
+                      <div>{{this.articlecount?.book}}</div>
+                      Books
+                    </li>
+                    <li>
+                      <span id="bookChapter"></span>
+                      <div>{{this.articlecount?.bookChapter}}</div>
+                      Book Chapters
+                    </li>
+                  </ul>
+                  <div class="col-lg-12">
+                    <div class="filter">
+                      <div class="sort">
+                        <span class="custom-dropdown"> </span>
+                        <span class="custom-dropdown">
+                          <label class="control-label">Sort</label>
+                          <select
+                            [(ngModel)]="yearValue"
+                            (change)="changeYear(yearValue)"
+                          >
+                            <option *ngFor="let yearorder of yearSort">
+                              {{yearorder}}
+                            </option>
+                          </select>
+                          <select
+                            [(ngModel)]="ascendValue"
+                            (change)="changesOrder(ascendValue)"
+                          >
+                            <option *ngFor="let order of orderSort">
+                              {{order}}
+                            </option>
+                          </select>
+                        </span>
+                      </div>
+                      <div class="view">
+                        <span class="custom-dropdown">
+                          <label class="control-label">View</label>
+                          <select
+                            id="view_option"
+                            (change)="updateSelectedScheme($event)"
+                          >
+                            <option value="detailed">Detailed</option>
+                            <option value="compact">Compact</option>
+                          </select>
+                        </span>
+                      </div>
+                      <div class="legend">
+                        <img
+                          src="assets/given/img/legend.jpg"
+                          width="139"
+                          height="29"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="publication_list row"
+                    *ngFor="let d of filteredItems;let i=index"
+                  >
+                    <div class="result col-lg-12" id="publicationrecords">
+                      <article class="tagged_home">
+                        <h5 style="font-size: 17px">
+                          <span class="sl_no">{{i+1}}</span> {{d.year}}
+                          {{d.sourcePublication}} , Volume {{d.vol_No}} , Issue
+                          {{d.issue_No}} , Page {{d.b_Page}} - {{d.e_Page}} ,
+                          P-ISSN: {{d.issn}} , E-ISSN: + {{d.e_ISSN}}
+                        </h5>
+
+                        <div class="content">
+                          <div class="row article_header">
+                            <div class="col-lg-10">
+                              <p
+                                class="col_outline snip_val"
+                                *ngIf="d.snip"
+                                style="padding: 2px 10px; margin-bottom: -6px"
+                              >
+                                SNIP
+                                <span> {{d.snip}}</span>
+                              </p>
+                              <p
+                                class="col_outline if_val"
+                                *ngIf="d.impact_Factor"
+                                style="padding: 2px 10px"
+                              >
+                                Impact Factor
+                                <span>{{d.impact_Factor}} </span>
+                              </p>
+
+                              <p
+                                class="quadrant"
+                                *ngIf="d.q_Rank"
+                                style="padding: 0px"
+                              >
+                                {{d.q_Rank}}
+                              </p>
+                              <p>
+                                Published Online:
+                                <span
+                                  >{{d.online_Date |date:'dd-MM-yyyy'}}</span
+                                >
+                              </p>
+                            </div>
+                            <div class="col-lg-2">
+                              <button  *ngIf="d.verifiedStatus!==null" type="button" class="verifiedbtn">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="40"
+                                  height="40"
+                                  fill="currentColor"
+                                  class="bi bi-check"
+                                  viewBox="0 0 16 16"
+                                >
+                                  <path
+                                    d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                                  />
+                                </svg>
+                                <span class="verifstatus">
+                                  {{d.verifiedStatus}}
+                                </span>
+                              </button>
+                            </div>
+                          </div>
+
+                          <div class="row article_body">
+                            <div class="col-lg-9">
+                              <a
+                                target="_blank"
+                                [routerLink]="['/article/art',d.recordId,this.faculty.slNo || '']"
+                              >
+                                <h2
+                                  class="a_title type_book"
+                                  style="color: #0051bf"
+                                >
+                                  <img src="" />
+                                  {{d.title}}
+                                </h2>
+                              </a>
+
+                              <p class="a_text">{{d.abstract}}</p>
+                              <div class="a_author">
+                                <p
+                                  *ngFor="let t of d.authorAffiliation"
+                                  style="float: left"
+                                >
+                                  <a class="tooltip1" 
+                                    >{{t.split(',')[0]}}
+                                    <span class="tooltiptext"
+                                      >{{t.split(',')[1]}},{{t.split(',')[2]}},{{t.split(',')[3]}}</span
+                                    ></a>
+                                </p>
+                              </div>
+                              <div class="link" style="position: absolute">
+                                <a class="a_data" style="font-size: 18px">
+                                  Doi:{{d.link}}
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-3">
+                              <div
+                                class="article_data"
+                                [ngClass]="selectedScheme"
+                              >
+                                <p>SCS <span>Indexed </span></p>
+                                <p *ngIf="!Indexed" style="opacity: 0.2">
+                                  WOS <span> </span>
+                                </p>
+                                <p *ngIf="!d.IEEE" style="opacity: 0.2">
+                                  IEEE <span> {{d.ieee}}</span>
+                                </p>
+                                <p *ngIf="!d.PubMed" style="opacity: 0.2">
+                                  PubMed <span> {{d.pubmed}} </span>
+                                </p>
+                                <p>Scholar <span> Indexed </span></p>
+                                <p>UGC Care <span>Indexed</span></p>
+                                <p *ngIf="!Indexed" style="opacity: 0.2">
+                                  ABDC <span> </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row article_footer">
+                            <div class="col-lg-9">
+                              <p
+                                class="a_category"
+                                *ngFor="let t of d.technology_Areas"
+                              >
+                                {{t}}
+                              </p>
+                            </div>
+
+                            <div class="col-lg-3">
+                              <a
+                                class="link_btn"
+                                (click)="openModal()"
+                                style="background: #f1f1f1"
+                                >Cite
+                              </a>
+
+                              <a
+                                class="link_btn1"
+                                (click)="showshare()"
+                                style="background: #f1f1f1"
+                              >
+                                Share
+                              </a>
+
+                              <div *ngIf="showIcons">
+                                <br>
+                                    <p style="display:inline-block">
+                                      <share-buttons style="background-color:rgb(29,161,242);width: 60px;border-radius: 70%;margin-right: 5px;"
+                                      
+                                        [theme]="'default'"
+                                        [include]="['twitter']"
+                                        [show]="9"
+                                        [size]="1"
+                                        [url]=" getShareUrl(d.recordId) "
+                                        [autoSetMeta]="false"
+                                        >    </share-buttons>
+                                        <share-buttons style="background-color:blue;width: 60px;border-radius: 70%;margin-right: 5px"
+                                    
+                                        theme="default"
+                                        [include]="['facebook']"
+                                        [showIcon]="true"
+                                        [url]="getShareUrl(d.recordId)"
+                                        >    </share-buttons>
+                                        <share-buttons style="background-color:rgb(87,246,117);width: 60px;border-radius: 70%;margin-right: 5px"
+                                    
+                                        [theme]="'default'"
+                                        [include]="['whatsapp']"
+                                        [show]="9"
+                                        [size]="1"
+                                        [url]=" getShareUrl(d.recordId)"
+                                        [autoSetMeta]="false"
+                                        >    </share-buttons>
+                                    
+                                      </p>
+                              </div>
+                          </div>
+                          </div>
+
+                          <div *ngIf="showModal">
+                            <div
+                              id="myModal8"
+                              tabindex="-1"
+                              role="dialog"
+                              aria-labelledby="myModalLabel"
+                              aria-hidden="true"
+                              class="modalmain"
+                              style="display: block"
+                            >
+                              <div class="modals" style="width: 50%">
+                                <div class="modal-header">
+                                  <h4 class="modal-title" id="myModalLabel">
+                                    Citation
+                                  </h4>
+
+                                  <button
+                                    type="button"
+                                    class="close"
+                                    data-dismiss="modal"
+                                    aria-label="Close"
+                                    (click)="closeModal()"
+                                  >
+                                    <span aria-hidden="true">×</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="tabpanel">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                      <li
+                                        class="nav-item"
+                                        (click)="selectedTab = 'apa'"
+                                      >
+                                        <a
+                                          class="nav-link"
+                                          [class.active]="selectedTab === 'apa'"
+                                          >APA</a
+                                        >
+                                      </li>
+                                      <li
+                                        class="nav-item"
+                                        (click)="selectedTab = 'mla'"
+                                      >
+                                        <a
+                                          class="nav-link"
+                                          [class.active]="selectedTab === 'mla'"
+                                          >MLA</a
+                                        >
+                                      </li>
+                                      <li
+                                        class="nav-item"
+                                        (click)="selectedTab = 'chicago'"
+                                      >
+                                        <a
+                                          class="nav-link"
+                                          [class.active]="selectedTab === 'chicago'"
+                                          >Chicago</a
+                                        >
+                                      </li>
+                                      <li
+                                        class="nav-item"
+                                        (click)="selectedTab = 'harvard'"
+                                      >
+                                        <a
+                                          class="nav-link"
+                                          [class.active]="selectedTab === 'harvard'"
+                                          >Harvard</a
+                                        >
+                                      </li>
+                                      <li
+                                        class="nav-item"
+                                        (click)="selectedTab = 'vancouver'"
+                                      >
+                                        <a
+                                          class="nav-link"
+                                          [class.active]="selectedTab === 'vancouver'"
+                                          >Vancouver</a
+                                        >
+                                      </li>
+                                    </ul>
+                                    <div class="tab-content">
+                                      <div [ngSwitch]="selectedTab">
+                                        <div *ngSwitchCase="'apa'">
+                                          <p
+                                            class="mt"
+                                            style="float: left; font-size: 18px"
+                                            *ngFor="let t of d.authorAffiliation"
+                                          >
+                                            <a
+                                              class="tooltip1"
+                                              style="font-size: 18px"
+                                              >{{t.split(',')[0]}}
+                                              <span class="tooltiptext"
+                                                >{{t.split(',')[1]}},{{t.split(',')[2]}},{{t.split(',')[3]}}</span
+                                              >
+                                            </a>
+                                          </p>
+                                          <br />
+                                          <p class="testing">
+                                            ({{d.year}})-"{{d.title}}".<span
+                                              class="spub"
+                                              >{{d.sourcePublication}}</span
+                                            >,{{d.volume_No}}({{d.issue_No}}),Page
+                                            {{d.b_Page}} - {{d.e_Page}}.
+                                          </p>
+                                        </div>
+                                        <div *ngSwitchCase="'mla'">
+                                          <p
+                                            class="mt"
+                                            style="float: left; font-size: 18px"
+                                            *ngFor="let t of d.authorAffiliation"
+                                          >
+                                            <a class="tooltip1"
+                                              >{{t.split(',')[0]}}
+                                              <span class="tooltiptext"
+                                                >{{t.split(',')[1]}},{{t.split(',')[2]}},{{t.split(',')[3]}}</span
+                                              >
+                                            </a>
+                                          </p>
+                                          <p class="testing">
+                                            ({{d.year}})-"{{d.title}}".{{d.sourcePublication}},{{d.volume_No}}({{d.issue_No}}),Page
+                                            {{d.b_Page}} - {{d.e_Page}}.
+                                          </p>
+                                        </div>
+
+                                        <div *ngSwitchCase="'chicago'">
+                                          <p
+                                            class="mt"
+                                            style="float: left; font-size: 18px"
+                                            *ngFor="let t of d.authorAffiliation"
+                                          >
+                                            <a class="tooltip1"
+                                              >{{t.split(',')[0]}}
+                                              <span class="tooltiptext"
+                                                >{{t.split(',')[1]}},{{t.split(',')[2]}},{{t.split(',')[3]}}</span
+                                              >
+                                            </a>
+                                          </p>
+                                          <p class="testing">
+                                            "{{d.title}}".{{d.sourcePublication}},{{d.volume_No}}({{d.issue_No}}),Page
+                                            {{d.b_Page}} - {{d.e_Page}}.
+                                          </p>
+                                        </div>
+                                        <div *ngSwitchCase="'harvard'">
+                                          <p
+                                            class="mt"
+                                            style="float: left; font-size: 18px"
+                                            *ngFor="let t of d.authorAffiliation"
+                                          >
+                                            <a class="tooltip1"
+                                              >{{t.split(',')[0]}}
+                                              <span class="tooltiptext"
+                                                >{{t.split(',')[1]}},{{t.split(',')[2]}},{{t.split(',')[3]}}</span
+                                              >
+                                            </a>
+                                          </p>
+                                          <p class="testing">
+                                            ({{d.year}})-"{{d.title}}",Available
+                                            from doi:{{d.link}}
+                                          </p>
+                                        </div>
+                                        <div *ngSwitchCase="'vancouver'">
+                                          <p
+                                            class="mt"
+                                            style="float: left; font-size: 18px"
+                                            *ngFor="let t of d.authorAffiliation"
+                                          >
+                                            <a class="tooltip1"
+                                              >{{t.split(',')[0]}}
+                                              <span class="tooltiptext"
+                                                >{{t.split(',')[1]}},{{t.split(',')[2]}},{{t.split(',')[3]}}</span
+                                              >
+                                            </a>
+                                          </p>
+                                          <p class="testing">
+                                            "{{d.title}}",Available from
+                                            doi:{{d.link}}
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                  <a
+                    role="button"
+                    data-toggle="collapse"
+                    data-parent="#accordion"
+                    href="#collapseTwo"
+                    aria-expanded="true"
+                    aria-controls="collapseTwo"
+                  >
+                    Collapsible Group Item #2
+                  </a>
+                </h4>
+              </div>
+
+              <div
+                id="collapseTwo"
+                class="panel-collapse collapse in"
+                role="tabpanel"
+                aria-labelledby="headingTwo"
+              >
+                <div class="panel panel-default">
+                  <div class="panel-heading">Table by DataTables plugin</div>
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="dataTables_length" id="zctb_length">
+                          <label
+                            >Show
+
+                            <select
+                              name="zctb_length"
+                              aria-controls="zctb"
+                              class="form-control input-sm"
+                              [(ngModel)]="poPageSize"
+                            >
+                              <option
+                                value="100"
+                                *ngFor="let data of pageSizes"
+                                [value]="data"
+                              >
+                                {{data}}
+                              </option>
+                            </select>
+                            entries</label
+                          >
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div id="zctb_filter" class="dataTables_filter">
+                          <label
+                            >Search:<input
+                              type="search"
+                              class="form-control input-sm"
+                              placeholder=""
+                              aria-controls="zctb"
+                              [(ngModel)]="filterValue"
+                          /></label>
+                        </div>
+                      </div>
+                    </div>
+                    <table
+                      id="zctb"
+                      class="display table table-striped table-bordered table-hover"
+                      cellspacing="0"
+                      width="100%"
+                    >
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr
+                          *ngFor="let value of items |searchFilter:filterValue | slice: (poPage-1) * poPageSize : (poPage-1) * poPageSize + poPageSize ;let i=index"
+                        >
+                          <td>{{ value.name }}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <div class="row">
+                      <div class="col-sm-5">
+                        <div
+                          class="dataTables_info"
+                          id="zctb_info"
+                          role="status"
+                          aria-live="polite"
+                        >
+                          Showing 1 to 10 of 30 entries
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <ngb-pagination
+                          style="float: right"
+                          [(page)]="poPage"
+                          [pageSize]="poPageSize"
+                          [collectionSize]="items.length"
+                        >
+                        </ngb-pagination>
+                      </div>
+                    </div>
+                  </div>               
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

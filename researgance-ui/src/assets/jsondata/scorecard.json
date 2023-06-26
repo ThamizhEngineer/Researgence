@@ -1,0 +1,803 @@
+[
+    {
+        "scoreNo": "1",
+        "description": "Scientific literatures such as journal articles, conference proceedings, books and book chapters, authored by researchers of the academic organization.",
+        "scoreName": "Publication",
+        "scoreParameters": [
+            {
+                "slno": 1,
+                "Type": "Publication",
+                "Parameter": "Total Publications  ",
+                "Score": 14067
+            },
+            {
+                "slno": 2,
+                "Type": "Publication",
+                "Parameter": "Publications in Scopus ",
+                "Score": 6647
+            },
+            {
+                "slno": 3,
+                "Type": "Publication",
+                "Parameter": "Publications in Web of Science",
+                "Score": 3985
+            },
+            {
+                "slno": 4,
+                "Type": "Publication",
+                "Parameter": "Publications in Science Citation Index",
+                "Score": 2321
+            },
+            {
+                "slno": 5,
+                "Type": "Publication",
+                "Parameter": "Publications in PubMed",
+                "Score": 577
+            },
+            {
+                "slno": 6,
+                "Type": "Publication",
+                "Parameter": "Publications in IEEE",
+                "Score": 497
+            },
+            {
+                "slno": 7,
+                "Type": "Publication",
+                "Parameter": "Publications in UGC CARE",
+                "Score": 6620
+            },
+            {
+                "slno": 8,
+                "Type": "Publication",
+                "Parameter": "Publications in UGC Group 1",
+                "Score": 458
+            },
+            {
+                "slno": 9,
+                "Type": "Publication",
+                "Parameter": "Publications in ABDC",
+                "Score": 5940
+            }
+        ],
+        "scholar": {
+            "title": "Faculty with most number of Publications",
+            "name": "Chandrasekhara ",
+            "id": "",
+            "count": "685"
+        },
+        "faculty": {
+            "title": "Faculty with most number of Publications",
+            "name": "Rajeev Sharma",
+            "id": "",
+            "count": "49"
+        }
+    },
+    {
+        "scoreNo": "2",
+        "scoreName": "Key Quality Indicators",
+        "description": "A measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+        "scoreParameters": [
+            {
+                "slno": 14,
+                "Type": "Key Quality Indicators ",
+                "Parameter": "Publications in Q1 journals (Scopus) -",
+                "Score": 1086
+            },
+            {
+                "slno": 15,
+                "Type": "Key Quality Indicators ",
+                "Parameter": "Publications in Q2 journals (Scopus) -",
+                "Score": 1854
+            },
+            {
+                "slno": 16,
+                "Type": "Key Quality Indicators ",
+                "Parameter": "Publications in Nature journals -",
+                "Score": 28
+            },
+            {
+                "slno": 17,
+                "Type": "Key Quality Indicators ",
+                "Parameter": "Publications in ACM conferences -",
+                "Score": 27
+            },
+            {
+                "slno": 18,
+                "Type": "Key Quality Indicators ",
+                "Parameter": "Publications in IEEE journals -",
+                "Score": 59
+            },
+            {
+                "slno": 19,
+                "Type": "Key Quality Indicators ",
+                "Parameter": "Publications in A* conferences -",
+                "Score": 89
+            },
+            {
+                "slno": 20,
+                "Type": "Key Quality Indicators ",
+                "Parameter": "Publications in A conferences -",
+                "Score": 158
+            },
+            {
+                "slno": 21,
+                "Type": "Key Quality Indicators ",
+                "Parameter": "Publications in Predatory Journals",
+                "Score": 47
+            }
+
+          
+           
+        ],
+        "scholar": {
+            "title": "Faculty with most no Key Quality Indicators",
+            "name": "Venkata",
+            "id": ""
+          
+        },
+        "faculty": {
+            "title": "Faculty with most no Key Quality Indicators",
+            "name": "Rajeev Sharma",
+            "id": "",
+            "count": "49"
+        }
+    },
+    {
+        "scoreNo": "3",
+        "scoreName": "Productivity Index",
+        "description": "A measure of the per faculty publications output, indicative of the awareness, interest and contribution levels in an organization ",
+        "scoreParameters": [
+            {
+                "slno": 29,
+                "Type": "Productivity Index",
+                "Parameter": "Productivity Index of University -  ",
+                "Score": 1.42
+            },
+            {
+                "slno": 30,
+                "Type": "Productivity Index",
+                "Parameter": "Productivity Index in 2023 -  ",
+                "Score": 0.78
+            },
+            {
+                "slno": 31,
+                "Type": "Productivity Index",
+                "Parameter": "Productivity Index in Jan 2023 -  ",
+                "Score": 0.81
+            },
+            {
+                "slno": 32,
+                "Type": "Productivity Index",
+                "Parameter": "Faculty Highest Productivity Index  in 2023-  ",
+                "Score": 2.51
+            },
+            {
+                "slno": 33,
+                "Type": "Productivity Index",
+                "Parameter": "Faculty with Highest Productivity IndexJan  ",
+                "Score": 0.62
+            },
+            {
+                "slno": 34,
+                "Type": "Productivity Index",
+                "Parameter": "Productivity Index  Jan 2023 -  ",
+                "Score": 0.81
+            },
+            {
+                "slno": 35,
+                "Type": "Productivity Index",
+                "Parameter": "Faculty Highest Productivity Index  2023-  ",
+                "Score": 8.51
+            },
+            {
+                "slno": 36,
+                "Type": "Productivity Index",
+                "Parameter": "Faculty Highest Productivity Index Jan 2023  ",
+                "Score": 0.78
+            }
+        ],
+        "scholar": {
+            "title": "Faculty with most number of Productivity Index",
+            "name": "-",
+            "id": "",
+            "count": "-"
+        },
+        "faculty": {
+            "title": "Faculty with most number of Productivity Index",
+            "name": "-",
+            "id": "",
+            "count": "-"
+        }
+    },
+    {
+        "scoreNo": "4",
+        "scoreName": "Citations",
+        "description":"A count of the total number of credited references by researchers for publications of the academic organization, indicative of the impact of the organization’s research to the scientific community",
+        "scoreParameters": [
+            {
+                "slno": 37,
+                "Type": "Citations",
+                "Parameter": "Average Citations",
+                "Score": 12.826
+            },
+            {
+                "slno": 38,
+                "Type": "Citations",
+                "Parameter": "Citations in Scopus",
+                "Score": 35504
+            },
+            {
+                "slno": 39,
+                "Type": "Citations",
+                "Parameter": "Citations in Web of Science",
+                "Score": 25229
+            },
+            {
+                "slno": 40,
+                "Type": "Citations",
+                "Parameter": "Citations in Google Scholar",
+                "Score": 57478
+            },
+            {
+                "slno": 41,
+                "Type": "Citations",
+                "Parameter": "Citations in Crossref",
+                "Score": 59451
+            },
+            {
+                "slno": 42,
+                "Type": "Citations",
+                "Parameter": "Faculty with Highest Average Citations",
+                "Score": 13.8
+            },
+            {
+                "slno": 43,
+                "Type": "Citations",
+                "Parameter": "Scholar with Highest Average Citations-",
+                "Score":  7.1
+            },
+        
+            {
+                "slno": 42,
+                "Type": "Citation Index",
+                "Parameter": "Average Citation Index "
+            },
+            {
+                "slno": 43,
+                "Type": "Citation Index",
+                "Parameter": "Citation Index in Scopus "
+            },
+            {
+                "slno": 44,
+                "Type": "Citation Index",
+                "Parameter": "Citation Index in Web of Science "
+            },
+            {
+                "slno": 45,
+                "Type": "Citation Index",
+                "Parameter": "Citation Index in Google Scholar ",
+                "scope":26.7
+            },
+            {
+                "slno": 46,
+                "Type": "Citation Index",
+                "Parameter": "Citation Index in Crossref ",
+                "scope":34
+            }
+        ],
+        "scholar": {
+            "title": "Faculty with most number of Publications",
+            "name": "-Dr. KADIYALA",
+            "id": "",
+            "count": "-"
+        },
+        "faculty": {
+            "title": "Faculty with most number of Publications",
+            "name": "-Rohit Kumar",
+            "id": "",
+            "count": "-"
+        }
+    },
+    
+    {
+        "scoreNo": "5",
+        "scoreName": "h-Index",
+        "description":" A ratio of quality: quantity as defined by ‘h’ number of papers with ‘h’ or more citations, garnered by publications from the organization",
+        "scoreParameters": [
+            {
+                "slno": 49,
+                "Type": "h-Index ",
+                "Parameter": "Average H-Index",
+                "Score": 70
+            },
+            {
+                "slno": 50,
+                "Type": "h-Index ",
+                "Parameter": "H- Index in Scopus",
+                "Score": 63
+            },
+            {
+                "slno": 51,
+                "Type": "h-Index ",
+                "Parameter": "H- Index in Web of Science",
+                "Score": 56
+            },
+            {
+                "slno": 52,
+                "Type": "h-Index ",
+                "Parameter": "H- Index in Google Scholar",
+                "Score": 88
+            },
+            {
+                "slno": 53,
+                "Type": "h-Index ",
+                "Parameter": "H- Index in Crossref",
+                "Score": 73
+            },
+            {
+                "slno": 50,
+                "Type": "h-Index ",
+                "Parameter": "H- Index in Scopus",
+                "Score": 63
+            },
+            {
+                "slno": 51,
+                "Type": "h-Index ",
+                "Parameter": "H- Index in Web of Science",
+                "Score": 56
+            },
+            {
+                "slno": 52,
+                "Type": "h-Index ",
+                "Parameter": "H- Index in Google Scholar",
+                "Score": 88
+            },
+            {
+                "slno": 53,
+                "Type": "h-Index ",
+                "Parameter": "H- Index in Crossref",
+                "Score": 73
+            }
+        ],
+        "scholar": {
+            "title": "Faculty with most number of H-Index",
+            "name": "Dr. KADIYALA",
+            "id": "",
+            "count": "12.23"
+        },
+        "faculty": {
+            "title": "Faculty with most number of H-Indexs",
+            "name": "Ram Karan",
+            "id": "",
+            "count": "9.12"
+        }
+    },
+    {
+        "scoreNo": "6",
+        "scoreName": "I10-Index",
+        "description":"A ratio of quality: quantity as defined by publications with 10 or more citations, garnered by publications from the organizationt",
+        "scoreParameters": [
+            {
+                "slno": 56,
+                "Type": "I10-Index ",
+                "Parameter": "Average i10-Index",
+                "Score": 1013
+            },
+            {
+                "slno": 57,
+                "Type": "I10-Index ",
+                "Parameter": "i10 Index in Scopus",
+                "Score": 929
+            },
+            {
+                "slno": 58,
+                "Type": "I10-Index ",
+                "Parameter": "i10 Index in Web of Science",
+                "Score": 678
+            },
+            {
+                "slno": 59,
+                "Type": "I10-Index ",
+                "Parameter": "i10 Index in Google Scholar",
+                "Score": 1420
+            },
+            {
+                "slno": 60,
+                "Type": "I10-Index ",
+                "Parameter": "i10 Index in Crossref",
+                "Score": 1024
+            },
+            {
+                "slno": 61,
+                "Type": "I10-Index ",
+                "Parameter": "Faculty  Highest Average i10 Index",
+                "Score":  41
+            },
+            {
+                "slno": 62,
+                "Type": "I10-Index ",
+                "Parameter": "Scholar  Highest Average i10 Index ",
+                "Score":  15 
+            },
+            {
+                "slno": 62,
+                "Type": "I10-Index ",
+                "Parameter": "Scholar  Highest Average i10 Index ",
+                "Score":  15 
+            }
+        ],
+        "scholar": {
+            "title": "Faculty with most number of Publications",
+            "name": "RAMA RAO",
+            "id": "",
+            "count": "685"
+        },
+        "faculty": {
+            "title": "Faculty with most number of Publications",
+            "name": "Ram Karan ",
+            "id": "",
+            "count": "49"
+        }
+    },
+    {
+        "scoreNo": "7",
+        "scoreName": "Average Impact Factor",
+        "description":"Impact factor (IF) is a measure of the number of times an average paper in a journal is cited, during a year, as developed by Clarivate Analytics. ",
+        "scoreParameters": [
+            {
+                "slno": 63,
+                "Type": "Average Impact Factor",
+                "Parameter": "Average Impact Factor",
+                "Score": 2.669
+            },
+            {
+                "slno": 64,
+                "Type": "Average Impact Factor",
+                "Parameter": "Cumulative Impact Factor",
+                "Score": 7783.66
+            },
+            {
+                "slno": 65,
+                "Type": "Average Impact Factor",
+                "Parameter": "Mean Impact Factor",
+                "Score": 2.669
+            },
+            {
+                "slno": 66,
+                "Type": "Average Impact Factor",
+                "Parameter": "Median Impact Factor",
+                "Score": 2.17
+            },
+            {
+                "slno": 67,
+                "Type": "Average Impact Factor",
+                "Parameter": "Faculty  Highest Average Impact Factor",
+                "Score": 4.988,
+                "__EMPTY": 4.988
+            },
+            {
+                "slno": 68,
+                "Type": "Average Impact Factor",
+                "Parameter": "Scholar  Highest Average Impact Factor",
+                "Score":2.42 ,
+                "__EMPTY": 2.42
+            },
+            {
+                "slno": 69,
+                "Type": "Average Impact Factor",
+                "Parameter": "Faculty  Highest Cumulative Impact Factor",
+                "Score": 214.69,
+                "__EMPTY": 214.69
+            },
+            {
+                "slno": 70,
+                "Type": "Average Impact Factor",
+                "Parameter": "Scholar  Highest Cumulative Impact Factor",
+                "Score": 75,
+                "__EMPTY": 45
+            }
+        ],
+        "scholar": {
+            "title": "Faculty most number Publications",
+            "name": "RAJESH KUMAR ",
+            "id": "",
+            "count": "685"
+        },
+        "faculty": {
+            "title": "Faculty most number Publications",
+            "name": "PRASUN BANERJEE",
+            "id": "",
+            "count": "49"
+        }
+    },
+    {
+        "scoreNo": "8",
+        "scoreName": "Average Cite Score",
+        "description":"CiteScore is essentially the average citations per document that a title receives over a three-year period, as developed by Scopus. ",
+        "scoreParameters": [
+            {
+                "slno": 71,
+                "Type": "Average Cite Score",
+                "Parameter": "Average Cite Score",
+                "Score": 3.35
+            },
+            {
+                "slno": 72,
+                "Type": "Average Cite Score",
+                "Parameter": "Cumulative Cite Score",
+                "Score": 14941.2
+            },
+            {
+                "slno": 73,
+                "Type": "Average Cite Score",
+                "Parameter": "Mean Cite Score",
+                "Score": 3.35
+            },
+            {
+                "slno": 74,
+                "Type": "Average Cite Score",
+                "Parameter": "Median Cite Score",
+                "Score": 2.4
+            },
+            {
+                "slno": 75,
+                "Type": "Average Cite Score",
+                "Parameter": "Faculty with Highest Average Cite Score",
+                "Score": "RAMA RAO MALLA",
+                "__EMPTY": 6.94
+            },
+            {
+                "slno": 76,
+                "Type": "Average Cite Score",
+                "Parameter": "Scholar with Highest Average Cite Score",
+                "Score": "BOLINENI ",
+                "__EMPTY": 1.12
+            },
+            {
+                "slno": 77,
+                "Type": "Average Cite Score",
+                "Parameter": "Faculty with Highest Cumulative Cite Score",
+                "Score": "RAMA RAO ",
+                "__EMPTY": 361
+            },
+            {
+                "slno": 78,
+                "Type": "Average Cite Score",
+                "Parameter": "Scholar with Highest Cumulative Cite Score",
+                "Score": "PHANI KUMAR ",
+                "__EMPTY": 20.7
+            }
+        ],
+        "scholar": {
+            "title": "Faculty with most number of Publications",
+            "name": "",
+            "id": "",
+            "count": "685"
+        },
+        "faculty": {
+            "title": "Faculty with most number of Publications",
+            "name": "",
+            "id": "",
+            "count": "49"
+        }
+    },
+    {
+        "scoreNo": "9",
+        "scoreName": "Average SNIP",
+        "description":" SNIP is calculated as the number of citations given in the present year to publications in the past three years divided by the total number of publications in the past three years, as developed by Scopus.",
+        "scoreParameters": [
+            {
+                "slno": 79,
+                "Type": "Average SNIP",
+                "Parameter": "Average SNIP",
+                "Score": 0.589
+            },
+            {
+                "slno": 80,
+                "Type": "Average SNIP",
+                "Parameter": "Cumulative SNIP",
+                "Score": 4341.3
+            },
+            {
+                "slno": 81,
+                "Type": "Average SNIP",
+                "Parameter": "Mean SNIP",
+                "Score": 0.589
+            },
+            {
+                "slno": 82,
+                "Type": "Average SNIP",
+                "Parameter": "Median SNIP",
+                "Score": 0.484
+            },
+            {
+                "slno": 84,
+                "Type": "Average SNIP",
+                "Parameter": "Faculty with Highest Average SNIP",
+                "Score": "SURESH MADDILA ",
+                "__EMPTY": 1.184
+            },
+            {
+                "slno": 85,
+                "Type": "Average SNIP",
+                "Parameter": "Scholar with Highest Average SNIP",
+                "Score": "SRINIVAS ",
+                "__EMPTY": 0.222
+            },
+            {
+                "slno": 86,
+                "Type": "Average SNIP",
+                "Parameter": "Faculty with Highest Cumulative SNIP",
+                "Score": "RAJU S K ",
+                "__EMPTY": 62.97499999999998
+            },
+            {
+                "slno": 87,
+                "Type": "Average SNIP",
+                "Parameter": "Scholar with Highest Cumulative SNIP",
+                "Score": "PRASUN ",
+                "__EMPTY": 18.84
+            }
+        ],
+        "scholar": {
+            "title": "Faculty with most number of Publications",
+            "name": "  ",
+            "id": "",
+            "count": "685"
+        },
+        "faculty": {
+            "title": "Faculty with most number of Publications",
+            "name": "",
+            "id": "",
+            "count": "49"
+        }
+    },
+    {
+        "scoreNo": "10",
+        "scoreName": "Collaborations",
+        "description":"A measure of the university’s collaborations in publications with authors from within their organization, outside their organziation in India and outside their organization internationally",
+        "scoreParameters": [
+            {
+                "slno": 88,
+                "Type": "Collaborations",
+                "Parameter": "Number international collaborations ",
+                "Score": 1519
+            },
+            {
+                "slno": 89,
+                "Type": "Collaborations",
+                "Parameter": "Number Industry Collaborations -",
+                "Score": 210
+            },
+            {
+                "slno": 90,
+                "Type": "Collaborations",
+                "Parameter": "Number Govt R&D Laboratories -",
+                "Score": 48
+            },
+            {
+                "slno": 91,
+                "Type": "Collaborations",
+                "Parameter": "Number Hospital/Health-care -",
+                "Score": 148
+            },
+            {
+                "slno": 92,
+                "Type": "Collaborations",
+                "Parameter": "Number of National Collaborations",
+                "Score": 8565
+            },
+            {
+                "slno": 93,
+                "Type": "Collaborations",
+                "Parameter": "Number of Home inter-campus  ",
+                "Score": 1258
+            },
+            {
+                "slno": 94,
+                "Type": "Collaborations",
+                "Parameter": "Number of Home inter-institute ",
+                "Score": 652
+            },
+            {
+                "slno": 95,
+                "Type": "Collaborations",
+                "Parameter": "Number of Home inter-department  ",
+                "Score": 124
+            },
+            {
+                "slno": 96,
+                "Type": "Collaborations",
+                "Parameter": "Number of International Authors ",
+                "Score": 2466
+            },
+            {
+                "slno": 97,
+                "Type": "Collaborations",
+                "Parameter": "Faculty with Highest International ",
+                "Score": "BALAJI RAVURI",
+                "__EMPTY": 19
+            },
+            {
+                "slno": 98,
+                "Type": "Collaborations",
+                "Parameter": "Scholar with Highest International",
+                "Score": "Robun Ravi",
+                "__EMPTY": 9
+            }
+        ],
+        "scholar": {
+            "title": "Faculty with most number of Publications",
+            "name": "BALAJI RAVURI",
+            "id": "",
+            "count": "685"
+        },
+        "faculty": {
+            "title": "Faculty with most number of Publications",
+            "name": "Robun Ravi",
+            "id": "",
+            "count": "49"
+        }
+    },
+    {
+        "scoreNo": "11",
+        "scoreName": "Rankings",
+        "description":"A true measure of value of research publciations indicated by publications eligible for various ranking agencies such as NAAC, NIRF, QS, THE, IOE, Shanghai, etc",
+        "scoreParameters": [
+            {
+                "slno": 99,
+                "Type": "Rankings",
+                "Parameter": "Number of NIRF eligible publications -",
+                "Score": 2902
+            },
+            {
+                "slno": 100,
+                "Type": "Rankings",
+                "Parameter": "Number of NAAC eligible publications -",
+                "Score": 4627
+            },
+            {
+                "slno": 101,
+                "Type": "Rankings",
+                "Parameter": "Number of QS Eligible publications",
+                "Score": 4019
+            },
+            {
+                "slno": 102,
+                "Type": "Rankings",
+                "Parameter": "Number of THE eligible publications",
+                "Score": 3658
+            },
+            {
+                "slno": 103,
+                "Type": "Rankings",
+                "Parameter": "Number of Shanghai eligible publications",
+                "Score": 2231
+            },
+            {
+                "slno": 102,
+                "Type": "Rankings",
+                "Parameter": "Number of THE eligible publications",
+                "Score": 658
+            },
+            {
+                "slno": 103,
+                "Type": "Rankings",
+                "Parameter": "Number of eligible publications",
+                "Score": 221
+            }
+        ],
+        "scholar": {
+            "title": "Faculty with most number of Publications",
+            "name": "",
+            "id": "",
+            "count": "685"
+        },
+        "faculty": {
+            "title": "Faculty with most number of Publications",
+            "name": "",
+            "id": "",
+            "count": "49"
+        }
+    }
+]

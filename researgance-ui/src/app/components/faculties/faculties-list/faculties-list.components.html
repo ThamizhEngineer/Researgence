@@ -1,0 +1,266 @@
+<style>
+  .drop {
+  position: relative;
+}
+
+label {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+select {
+  width: 100px;
+  padding: 5px 30px 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select:focus {
+  outline: none;
+  border-color: #5b9dd9;
+  box-shadow: 0 0 5px #5b9dd9;
+}
+
+.caret {
+  position: absolute;
+  top: 40%;
+  right: 60px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.caret::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 4px;
+  vertical-align: middle;
+  border-top: 4px solid #999;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.select-open .caret::before {
+  border-top: 0;
+  border-bottom: 4px solid #999;
+}
+
+
+</style>
+<div class="container-fluid">
+  <div class="row bg-white" id="bg-white">
+    <div class="col-lg-12s">
+      <div class="container">
+        <div class="title">
+          <h3>List of Faculty Profiles</h3>
+        </div>
+        <div class="drop">
+          <label style="margin-left:89%;font-size: 20px;">
+            <select class="form-control input-sm ts" [(ngModel)]="pageSize" style="margin-right: 10px;margin-bottom: 9px;padding-right: 30px;">
+              <option *ngFor="let data of pageSizes" [value]="data">{{data}}</option>
+            </select>
+            <span class="caret"></span>
+          </label>
+        </div>
+        
+        
+        <div
+          class="panel-group"
+          id="accordion"
+          role="tablist"
+          aria-multiselectable="true"
+          style="margin-right: -39px; margin-left: -17px"
+        >
+        
+        
+          <div class="panel panel-default">
+            <div
+              class="panel-body"
+              id="profileList"
+              *ngFor="let data of filteredItems | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize ;"
+              style="padding: 30px 30px">
+              <div
+                class="row faculty content"
+                style="padding-top: 19px; margin-left: 0px">
+                <div class="col-lg-5">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="hexa-sm photo">
+                        <div class="hex1">
+                          <div class="hex2">
+                            <span
+                              *ngIf="data.empId!='ISC001'&&data.empId!='ISC002'&&data.empId!='ISC003'
+                             &&data.empId!='ISC004'&&data.empId!='ISC005'"
+                            >
+                              <img src="{{imageSrc}}{{data.empId}}.jpg" />
+                            </span>
+                            <div>
+                              <span *ngIf="data.empId=='ISC001'">
+                                <img src="{{facultyimages[0]}}" />
+                              </span>
+                              <span *ngIf="data.empId=='ISC002'">
+                                <img src="{{facultyimages[1]}}" />
+                              </span>
+                              <span *ngIf="data.empId=='ISC003'">
+                                <img src="{{facultyimages[2]}}" />
+                              </span>
+                              <span *ngIf="data.empId=='ISC004'">
+                                <img src="{{facultyimages[3]}}" />
+                              </span>
+                              <span *ngIf="data.empId=='ISC005'">
+                                <img src="{{facultyimages[4]}}" />
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-9">
+                      <h3 class="faculty-name">
+                        <a
+                          routerLink="{{uibaseurl}}/{{data.slNo}}"
+                          style="color: #0051bf"
+                        >
+                          {{data.facultyName}}
+                        </a>
+                      </h3>
+                      <h4 class="facultys">{{data.faculty}}</h4>
+                      <h4 class="faculty-designation">{{data.designation}}</h4>
+                      <div class="detail">
+                        <p>{{data.department}}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="faculty-itm">
+                        <div class="faculty-icon">
+                          <img
+                            src="assets/given/img/icon1-orange.png"
+                            alt=""
+                            width="30"
+                            height="auto"
+                          /><span
+                            style="font-family: gothambook; font-size: 14px"
+                            >Publications</span
+                          >
+                        </div>
+                        <div class="value">
+                          <h3
+                            id="pubcount"
+                            style="
+                              color: #3a3872;
+                              font-family: inherit;
+                              margin-top: 13px;
+                            "
+                          >
+                            {{data.pubCount_Total}}
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="faculty-itm">
+                        <div class="faculty-icon">
+                          <img
+                            src="assets/given/img/icon2-orange.png"
+                            alt=""
+                            width="30"
+                            height="auto"
+                          />
+                          <span style="font-family: gothambook; font-size: 14px"
+                            >Patents</span
+                          >
+                        </div>
+                        <div class="value">
+                          <h3
+                            style="
+                              color: #3a3872;
+                              font-family: inherit;
+                              margin-top: 13px;
+                            "
+                          >
+                            {{data.patentCount}}
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="faculty-itm">
+                        <div class="faculty-icon">
+                          <img
+                            src="assets/given/img/icon3-orange.png"
+                            alt=""
+                            width="30"
+                            height="auto"
+                          />
+                          <span style="font-family: gothambook; font-size: 14px"
+                            >Projects</span
+                          >
+                        </div>
+                        <div class="value">
+                          <h3
+                            style="
+                              color: #3a3872;
+                              font-family: inherit;
+                              margin-top: 13px;
+                            "
+                          >
+                            {{data.projectCount}}
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="faculty-itm">
+                        <div class="faculty-icon">
+                          <img
+                            src="assets/given/img/icon4-orange.png"
+                            alt=""
+                            width="25"
+                            height="auto"
+                          />
+                          <span style="font-family: gothambook; font-size: 14px"
+                            >Academic
+                          </span>
+                          <span
+                            class="sp"
+                            style="margin-left: 30px; font-family: 'gothambook'"
+                            >Guidance</span
+                          >
+                        </div>
+                        <div class="value">
+                          <h3
+                            class="ac"
+                            style="color: #3a3872; font-family: inherit"
+                          >
+                            {{data.academicGuidanceCount}}
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="paginate" style="float:left;margin-left: 56%;margin-top: 3%;">
+              <ngb-pagination [(page)]="page" [pageSize]="pageSize" [collectionSize]="filteredItems.length">
+                </ngb-pagination>
+            <!-- <pre>Current page: {{page}}</pre> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

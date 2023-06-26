@@ -1,0 +1,138 @@
+<!-- Page Header Start-->
+<div class="page-main-header" [ngClass]="{'open' : navServices.collapseSidebar}" id="page-main-header">
+  <div class="main-header-right row">
+    <div class="main-header-left col-auto p-0 d-lg-none">
+      <div class="logo-wrapper"><a href="javascript:void(0)"><img src="assets/images/logo/researgence-logo.png" alt=""></a></div>
+    </div>
+    <div class="mobile-sidebar col-auto p-0">
+      <div class="media-body text-start switch-sm">
+        <label class="switch">
+          <a href="javascript:void(0)" (click)="collapseSidebar()">
+            <app-feather-icons id="sidebar-toggle" [icon]="'align-left'"></app-feather-icons>
+          </a>
+        </label>
+      </div>
+    </div>
+    <div class="nav-right col">
+      <ul class="nav-menus" [ngClass]="{'open' : openNav}">
+        <li>
+          <form class="form-inline search-form">
+            <div class="form-group mb-0">
+              <input class="form-control-plaintext"  [class.open]="isOpenMobile"  [(ngModel)]="searchQuery" (keyup)="search()"  [ngModelOptions]="{standalone: true}"  type="text" autocomplete="off"
+              placeholder="Search..">
+              <span class="d-sm-none mobile-search">
+                <app-feather-icons [icon]="'search'" (click)="isOpenMobile=!isOpenMobile"></app-feather-icons>
+              </span>
+              <div class="Typeahead-menu" [class.is-open]="searchResult" *ngIf="menuItems?.length" id="search-outer">
+                <div class="ProfileCard u-cf" *ngFor="let menuItem of menuItems | slice:0:8">
+                  <div class="ProfileCard-avatar">
+                    <app-feather-icons [icon]="menuItem.icon" class="header-search"></app-feather-icons>
+                  </div>
+                  <div class="ProfileCard-details">
+                    <div class="ProfileCard-realName">
+                      <a [routerLink]="menuItem?.path" class="realname" (click)="removeFix()">{{menuItem?.title}}</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="Typeahead-menu" [class.is-open]="searchResultEmpty">
+                <div class="tt-dataset tt-dataset-0">
+                  <div class="EmptyMessage">
+                    Opps!! There are no result found.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </li>
+        
+        <li>
+          <a href="javascript:void(0)" class="text-dark" (click)="toggleFullScreen()">
+            <app-feather-icons [icon]="'maximize'"></app-feather-icons>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="fa fa-home" style="font-size: 20px;margin-top: 6px;"></a>
+        </li>
+        <!-- <li>
+          <a href="javascript:void(0)" class="text-dark" (click)="toggleHelp(content)">
+            <app-feather-icons [icon]="'help-circle'"></app-feather-icons><span class="dot"></span>
+          </a>
+        </li> -->
+        <li class="onhover-dropdown">
+          <app-feather-icons [icon]="'bell'"></app-feather-icons>
+          <ul class="notification-dropdown onhover-show-div">
+            <li>Notification <span class="badge rounded-pill badge-primary pull-right">1</span></li>
+            <li>
+              <div class="media">
+                <div class="flex-grow-1">
+                  <h6 class="mt-0 txt-danger"><span>
+                      <app-feather-icons class="alert-color font-danger" [icon]="'alert-circle'"></app-feather-icons>
+                    </span>Patent #345 is due in 10 days<small class="pull-right">5:00 PM</small></h6>
+                  <p class="mb-0">Please contact Patent administrator</p>
+                </div>
+              </div>
+            </li>
+            <li class="bg-light txt-dark"><a href="javascript:void(0)">All</a> notification</li>
+          </ul>
+        </li>
+        <li class="onhover-dropdown">
+          <div class="media align-items-center" *ngIf="!authService.userData as user"><img
+              class="align-self-center pull-right img-50 rounded-circle" src="assets/images/dashboard/user.png"
+              alt="header-user">
+            <div class="dotted-animation"><span class="animate-circle"></span><span class="main-circle"></span></div>
+          </div>
+          <div class="media align-items-center" *ngIf="authService.userData as user"><img
+              class="align-self-center pull-right img-50 rounded-circle"
+              [src]="user.photoURL ==null ? 'assets/images/user/profile-pic.jpg' : user.photoURL" alt="header-user">
+            <div class="dotted-animation"><span class="animate-circle"></span><span class="main-circle"></span></div>
+          </div>
+          <ul class="profile-dropdown onhover-show-div p-20">
+            <li><a href="javascript:void(0)">
+                <app-feather-icons [icon]="'user'"></app-feather-icons>Edit Profile
+              </a></li>
+            <li ><a href="javascript:void(0)" (click)="SignOut()">
+                <app-feather-icons [icon]="'log-out'"></app-feather-icons>Logout
+              </a></li>
+          </ul>
+        </li>
+      
+      </ul>
+      <img src="/assets/given/img/alma.png" class="alma" alt="alma">
+      <img src="/assets/given/img/researgence-logo.png" class="reslogo" alt="reslogo">
+      <div class="d-lg-none mobile-toggle pull-right" (click)="openMobileNav()">
+        <app-feather-icons [icon]="'more-horizontal'"></app-feather-icons>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #content let-modal>
+	<div class="modal-header">
+		<h4 class="modal-title" id="modal-basic-title">Help</h4>
+		<button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+	</div>
+	<div class="modal-body">
+		<div class="row">
+      <div class="col-lg-12">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 text-dark col-md-6 col-sm-6">
+              <h5 class="small-text" style="padding-top: 20px;">You are currently logged in via management login</h5>
+              <h2 style="padding-top: 50px;">Welcome to Your Researgence Repository</h2>
+              <p>This is your Scholarly Research Platform.<br>
+                Researgence creates a world of research for our subscribers by integrating all research data into the platform.  Take a tour de research of the portal by checking the demo video on the right!</p>
+            </div>
+            <div class="col-lg-5 col-md-6 col-sm-6"><a href="https://www.youtube.com/watch?v=3wzpI7orqxo" target="_blank"><img src="../../../../assets/given/img/srp_video_cover.jpg" alt="srp video" class="img-responsive" /></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-outline-dark" (click)="modal.close('Close')">Close</button>
+	</div>
+</ng-template>
+
+<!-- Page Header Ends -->

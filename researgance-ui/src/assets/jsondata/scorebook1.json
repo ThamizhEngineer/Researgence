@@ -1,0 +1,992 @@
+[
+    {
+      "scoreNumber": "1",
+      "scorebookSection": "Publications",
+      "description": "Publication\r\nScientific literatures such as journal articles, conference proceedings, books and book chapters, authored by researchers of the academic organization.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Total Publications",
+      "lineItemCount": "1050",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "1"
+    },
+    {
+      "scoreNumber": "1",
+      "scorebookSection": "Publications",
+      "description": "Publication\r\nScientific literatures such as journal articles, conference proceedings, books and book chapters, authored by researchers of the academic organization.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in ABDC",
+      "lineItemCount": "898",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "2"
+    },
+    {
+      "scoreNumber": "1",
+      "scorebookSection": "Publications",
+      "description": "Publication\r\nScientific literatures such as journal articles, conference proceedings, books and book chapters, authored by researchers of the academic organization.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in Crossref",
+      "lineItemCount": "1",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "3"
+    },
+    {
+      "scoreNumber": "1",
+      "scorebookSection": "Publications",
+      "description": "Publication\r\nScientific literatures such as journal articles, conference proceedings, books and book chapters, authored by researchers of the academic organization.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in Google Scholar",
+      "lineItemCount": "923",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "4"
+    },
+    {
+      "scoreNumber": "1",
+      "scorebookSection": "Publications",
+      "description": "Publication\r\nScientific literatures such as journal articles, conference proceedings, books and book chapters, authored by researchers of the academic organization.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in IEEE",
+      "lineItemCount": "45",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "5"
+    },
+    {
+      "scoreNumber": "1",
+      "scorebookSection": "Publications",
+      "description": "Publication\r\nScientific literatures such as journal articles, conference proceedings, books and book chapters, authored by researchers of the academic organization.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in Indian_Citation_Index",
+      "lineItemCount": "1",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "6"
+    },
+    {
+      "scoreNumber": "1",
+      "scorebookSection": "Publications",
+      "description": "Publication\r\nScientific literatures such as journal articles, conference proceedings, books and book chapters, authored by researchers of the academic organization.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in PUBMED",
+      "lineItemCount": "51",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "7"
+    },
+    {
+      "scoreNumber": "1",
+      "scorebookSection": "Publications",
+      "description": "Publication\r\nScientific literatures such as journal articles, conference proceedings, books and book chapters, authored by researchers of the academic organization.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in Science_Citation_Index",
+      "lineItemCount": "1",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "8"
+    },
+    {
+      "scoreNumber": "1",
+      "scorebookSection": "Publications",
+      "description": "Publication\r\nScientific literatures such as journal articles, conference proceedings, books and book chapters, authored by researchers of the academic organization.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in SCOPUS DB",
+      "lineItemCount": "1023",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "9"
+    },
+    {
+      "scoreNumber": "1",
+      "scorebookSection": "Publications",
+      "description": "Publication\r\nScientific literatures such as journal articles, conference proceedings, books and book chapters, authored by researchers of the academic organization.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in Web of Science",
+      "lineItemCount": "509",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "10"
+    },
+    {
+      "scoreNumber": "1",
+      "scorebookSection": "Publications",
+      "description": "Publication\r\nScientific literatures such as journal articles, conference proceedings, books and book chapters, authored by researchers of the academic organization.",
+      "lineItemType": "Faculty",
+      "lineItemText": "Faculty with most number of Publications",
+      "lineItemCount": "C S K RAJU,44                            ",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "11"
+    },
+    {
+      "scoreNumber": "1",
+      "scorebookSection": "Publications",
+      "description": "Publication\r\nScientific literatures such as journal articles, conference proceedings, books and book chapters, authored by researchers of the academic organization.",
+      "lineItemType": "Scholar",
+      "lineItemText": "Scholar with most number of publications",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "12"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in Q1 Journals (Scopus)",
+      "lineItemCount": "142",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "1"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in Q2 Journals (Scopus)",
+      "lineItemCount": "202",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "2"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in Nature Journals",
+      "lineItemCount": "1",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "3"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in ACM Conferences",
+      "lineItemCount": "0",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "4"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in IEEE Journals",
+      "lineItemCount": "27",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "5"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in A* Conferences",
+      "lineItemCount": "0",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "6"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in A Conferences",
+      "lineItemCount": "0",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "7"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publications in Predatory Journals",
+      "lineItemCount": "0",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "8"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publication Type Analysis – Journal",
+      "lineItemCount": "904",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "9"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publication Type Analysis – Conference",
+      "lineItemCount": "120",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "10"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publication Type Analysis – Book",
+      "lineItemCount": "0",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "11"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publication Type Analysis – Book Chapter",
+      "lineItemCount": "24",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "12"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publication Type Analysis – Preprints",
+      "lineItemCount": "0",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "13"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Publication Type Analysis –  Erratum",
+      "lineItemCount": "0",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "14"
+    },
+    {
+      "scoreNumber": "2",
+      "scorebookSection": "Key Quality Indicators",
+      "description": "Key Quality Indicators\r\nA measure of quality of publications, as outlined by various metrics such as publications in first quartile (Q1) and related quality metrics, predatory publications and SDG Publications",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "List of SDG Publications",
+      "lineItemCount": "0",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "15"
+    },
+    {
+      "scoreNumber": "3",
+      "scorebookSection": "Productivity Index",
+      "description": "Productivity Index\r\nA measure of the per faculty publications output, indicative of the awareness, interest and contribution levels in an organization",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Productivity Index of University",
+      "lineItemCount": "21",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "1"
+    },
+    {
+      "scoreNumber": "3",
+      "scorebookSection": "Productivity Index",
+      "description": "Productivity Index\r\nA measure of the per faculty publications output, indicative of the awareness, interest and contribution levels in an organization",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Productivity Index in2023                          ",
+      "lineItemCount": "0",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "2"
+    },
+    {
+      "scoreNumber": "3",
+      "scorebookSection": "Productivity Index",
+      "description": "Productivity Index\r\nA measure of the per faculty publications output, indicative of the awareness, interest and contribution levels in an organization",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Productivity Index inMarch 2023",
+      "lineItemCount": "0",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "3"
+    },
+    {
+      "scoreNumber": "3",
+      "scorebookSection": "Productivity Index",
+      "description": "Productivity Index\r\nA measure of the per faculty publications output, indicative of the awareness, interest and contribution levels in an organization",
+      "lineItemType": "Faculty",
+      "lineItemText": "Faculty with Highest Productivity Index",
+      "lineItemCount": "604",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "4"
+    },
+    {
+      "scoreNumber": "3",
+      "scorebookSection": "Productivity Index",
+      "description": "Productivity Index\r\nA measure of the per faculty publications output, indicative of the awareness, interest and contribution levels in an organization",
+      "lineItemType": "Faculty",
+      "lineItemText": "Faculty with Highest Productivity Index2023                          ",
+      "lineItemCount": "0",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "5"
+    },
+    {
+      "scoreNumber": "3",
+      "scorebookSection": "Productivity Index",
+      "description": "Productivity Index\r\nA measure of the per faculty publications output, indicative of the awareness, interest and contribution levels in an organization",
+      "lineItemType": "Faculty",
+      "lineItemText": "Faculty with Highest Productivity Index2023                          ",
+      "lineItemCount": "0",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "5"
+    },
+    {
+      "scoreNumber": "4",
+      "scorebookSection": "Citations",
+      "description": "Citations\r\nA count of the total number of credited references by researchers for publications of the academic organization, indicative of the impact of the organization’s research to the scientific community",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Average Citations",
+      "lineItemCount": "3.458973",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "1"
+    },
+    {
+      "scoreNumber": "4",
+      "scorebookSection": "Citations",
+      "description": "Citations\r\nA count of the total number of credited references by researchers for publications of the academic organization, indicative of the impact of the organization’s research to the scientific community",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Citations in ABDC",
+      "lineItemCount": "0.000",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "2"
+    },
+    {
+      "scoreNumber": "4",
+      "scorebookSection": "Citations",
+      "description": "Citations\r\nA count of the total number of credited references by researchers for publications of the academic organization, indicative of the impact of the organization’s research to the scientific community",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Citations in Crossref",
+      "lineItemCount": "0.000",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "3"
+    },
+    {
+      "scoreNumber": "4",
+      "scorebookSection": "Citations",
+      "description": "Citations\r\nA count of the total number of credited references by researchers for publications of the academic organization, indicative of the impact of the organization’s research to the scientific community",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Citations in Google Scholar",
+      "lineItemCount": "4196.000",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "4"
+    },
+    {
+      "scoreNumber": "4",
+      "scorebookSection": "Citations",
+      "description": "Citations\r\nA count of the total number of credited references by researchers for publications of the academic organization, indicative of the impact of the organization’s research to the scientific community",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Citations in IEEE",
+      "lineItemCount": "0.000",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "5"
+    },
+    {
+      "scoreNumber": "4",
+      "scorebookSection": "Citations",
+      "description": "Citations\r\nA count of the total number of credited references by researchers for publications of the academic organization, indicative of the impact of the organization’s research to the scientific community",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Citations in Indian_Citation_Index",
+      "lineItemCount": "0.000",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "6"
+    },
+    {
+      "scoreNumber": "4",
+      "scorebookSection": "Citations",
+      "description": "Citations\r\nA count of the total number of credited references by researchers for publications of the academic organization, indicative of the impact of the organization’s research to the scientific community",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Citations in PUBMED",
+      "lineItemCount": "0.000",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "7"
+    },
+    {
+      "scoreNumber": "4",
+      "scorebookSection": "Citations",
+      "description": "Citations\r\nA count of the total number of credited references by researchers for publications of the academic organization, indicative of the impact of the organization’s research to the scientific community",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Citations in Science_Citation_Index",
+      "lineItemCount": "0.000",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "8"
+    },
+    {
+      "scoreNumber": "4",
+      "scorebookSection": "Citations",
+      "description": "Citations\r\nA count of the total number of credited references by researchers for publications of the academic organization, indicative of the impact of the organization’s research to the scientific community",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Citations in SCOPUS DB",
+      "lineItemCount": "4521.000",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "9"
+    },
+    {
+      "scoreNumber": "4",
+      "scorebookSection": "Citations",
+      "description": "Citations\r\nA count of the total number of credited references by researchers for publications of the academic organization, indicative of the impact of the organization’s research to the scientific community",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Citations in Web of Science",
+      "lineItemCount": "3213.000",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "10"
+    },
+    {
+      "scoreNumber": "4",
+      "scorebookSection": "Citations",
+      "description": "Citations\r\nA count of the total number of credited references by researchers for publications of the academic organization, indicative of the impact of the organization’s research to the scientific community",
+      "lineItemType": "Faculty",
+      "lineItemText": "Faculty with Highest Average Citations",
+      "lineItemCount": "MALLA R R,29.000000                     ",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "11"
+    },
+    {
+      "scoreNumber": "4",
+      "scorebookSection": "Citations",
+      "description": "Citations\r\nA count of the total number of credited references by researchers for publications of the academic organization, indicative of the impact of the organization’s research to the scientific community",
+      "lineItemType": "Scholar",
+      "lineItemText": "Scholar with Highest Average Citations",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "12"
+    },
+    {
+      "scoreNumber": "5",
+      "scorebookSection": "H-Index",
+      "description": "h-Index\r\nA ratio of quality: quantity as defined by ‘h’ number of papers with ‘h’ or more citations, garnered by publications from the organization",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Average H-Index",
+      "lineItemCount": "36",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "1"
+    },
+    {
+      "scoreNumber": "5",
+      "scorebookSection": "H-Index",
+      "description": "h-Index\r\nA ratio of quality: quantity as defined by ‘h’ number of papers with ‘h’ or more citations, garnered by publications from the organization",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "H- Index in Scopus",
+      "lineItemCount": "48",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "2"
+    },
+    {
+      "scoreNumber": "5",
+      "scorebookSection": "H-Index",
+      "description": "h-Index\r\nA ratio of quality: quantity as defined by ‘h’ number of papers with ‘h’ or more citations, garnered by publications from the organization",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "H- Index in Scopus",
+      "lineItemCount": "45",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "3"
+    },
+    {
+      "scoreNumber": "5",
+      "scorebookSection": "H-Index",
+      "description": "h-Index\r\nA ratio of quality: quantity as defined by ‘h’ number of papers with ‘h’ or more citations, garnered by publications from the organization",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "H- Index in Scopus",
+      "lineItemCount": "53",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "4"
+    },
+    {
+      "scoreNumber": "5",
+      "scorebookSection": "H-Index",
+      "description": "h-Index\r\nA ratio of quality: quantity as defined by ‘h’ number of papers with ‘h’ or more citations, garnered by publications from the organization",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "H- Index in Scopus",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "5"
+    },
+    {
+      "scoreNumber": "5",
+      "scorebookSection": "H-Index",
+      "description": "h-Index\r\nA ratio of quality: quantity as defined by ‘h’ number of papers with ‘h’ or more citations, garnered by publications from the organization",
+      "lineItemType": "Faculty",
+      "lineItemText": "Faculty with Highest Average H-Index ",
+      "lineItemCount": "K CHANDRA BABU NAIDU,27                            ",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "6"
+    },
+    {
+      "scoreNumber": "5",
+      "scorebookSection": "H-Index",
+      "description": "h-Index\r\nA ratio of quality: quantity as defined by ‘h’ number of papers with ‘h’ or more citations, garnered by publications from the organization",
+      "lineItemType": "Scholar",
+      "lineItemText": "Scholar with Highest Average H-Index",
+      "lineItemCount": "JONNALAGADDA S B,16                            ",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "7"
+    },
+    {
+      "scoreNumber": "6",
+      "scorebookSection": "i10 Index",
+      "description": "I10-Index\r\nA ratio of quality: quantity as defined by publications with 10 or more citations, garnered by publications from the organizationt",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Average i10-Index",
+      "lineItemCount": "46.103448",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "1"
+    },
+    {
+      "scoreNumber": "6",
+      "scorebookSection": "i10 Index",
+      "description": "I10-Index\r\nA ratio of quality: quantity as defined by publications with 10 or more citations, garnered by publications from the organizationt",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "i10 Index in Scopus",
+      "lineItemCount": "42.605263",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "2"
+    },
+    {
+      "scoreNumber": "6",
+      "scorebookSection": "i10 Index",
+      "description": "I10-Index\r\nA ratio of quality: quantity as defined by publications with 10 or more citations, garnered by publications from the organizationt",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "i10 Index in Web of Science",
+      "lineItemCount": "40.714285",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "3"
+    },
+    {
+      "scoreNumber": "6",
+      "scorebookSection": "i10 Index",
+      "description": "I10-Index\r\nA ratio of quality: quantity as defined by publications with 10 or more citations, garnered by publications from the organizationt",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "i10 Index in Google Scholar",
+      "lineItemCount": "53.581395",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "4"
+    },
+    {
+      "scoreNumber": "6",
+      "scorebookSection": "i10 Index",
+      "description": "I10-Index\r\nA ratio of quality: quantity as defined by publications with 10 or more citations, garnered by publications from the organizationt",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "i10 Index in Crossref",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "5"
+    },
+    {
+      "scoreNumber": "6",
+      "scorebookSection": "i10 Index",
+      "description": "I10-Index\r\nA ratio of quality: quantity as defined by publications with 10 or more citations, garnered by publications from the organizationt",
+      "lineItemType": "Faculty",
+      "lineItemText": "Faculty with Highest Average i10 Index",
+      "lineItemCount": "V B S SRILATHA INDIRA DUTT,120.000000                    ",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "6"
+    },
+    {
+      "scoreNumber": "6",
+      "scorebookSection": "i10 Index",
+      "description": "I10-Index\r\nA ratio of quality: quantity as defined by publications with 10 or more citations, garnered by publications from the organizationt",
+      "lineItemType": "Scholar",
+      "lineItemText": "Scholar with Highest Average i10 Index",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "7"
+    },
+    {
+      "scoreNumber": "7",
+      "scorebookSection": "Average Impact Factor",
+      "description": "Average Impact Factor\r\nImpact factor (IF) is a measure of the number of times an average paper in a journal is cited, during a year, as developed by Clarivate Analytics.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Average Impact Factor",
+      "lineItemCount": "0.978053",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "1"
+    },
+    {
+      "scoreNumber": "7",
+      "scorebookSection": "Average Impact Factor",
+      "description": "Average Impact Factor\r\nImpact factor (IF) is a measure of the number of times an average paper in a journal is cited, during a year, as developed by Clarivate Analytics.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Cumulative Impact Factor",
+      "lineItemCount": "1025",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "2"
+    },
+    {
+      "scoreNumber": "7",
+      "scorebookSection": "Average Impact Factor",
+      "description": "Average Impact Factor\r\nImpact factor (IF) is a measure of the number of times an average paper in a journal is cited, during a year, as developed by Clarivate Analytics.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Mean Impact Factor",
+      "lineItemCount": "0.978053",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "3"
+    },
+    {
+      "scoreNumber": "7",
+      "scorebookSection": "Average Impact Factor",
+      "description": "Average Impact Factor\r\nImpact factor (IF) is a measure of the number of times an average paper in a journal is cited, during a year, as developed by Clarivate Analytics.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Median Impact Factor",
+      "lineItemCount": "0",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "4"
+    },
+    {
+      "scoreNumber": "7",
+      "scorebookSection": "Average Impact Factor",
+      "description": "Average Impact Factor\r\nImpact factor (IF) is a measure of the number of times an average paper in a journal is cited, during a year, as developed by Clarivate Analytics.",
+      "lineItemType": "Faculty",
+      "lineItemText": "Faculty with Highest Average Impact Factor",
+      "lineItemCount": "MUKKAMALA S B,3.782608                      ",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "5"
+    },
+    {
+      "scoreNumber": "7",
+      "scorebookSection": "Average Impact Factor",
+      "description": "Average Impact Factor\r\nImpact factor (IF) is a measure of the number of times an average paper in a journal is cited, during a year, as developed by Clarivate Analytics.",
+      "lineItemType": "Scholar",
+      "lineItemText": "Scholar with Highest Average Impact Factor",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "6"
+    },
+    {
+      "scoreNumber": "7",
+      "scorebookSection": "Average Impact Factor",
+      "description": "Average Impact Factor\r\nImpact factor (IF) is a measure of the number of times an average paper in a journal is cited, during a year, as developed by Clarivate Analytics.",
+      "lineItemType": "Faculty",
+      "lineItemText": "Faculty with Highest Cumulative Impact Factor",
+      "lineItemCount": "K CHANDRA BABU NAIDU,92.000                        ",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "7"
+    },
+    {
+      "scoreNumber": "7",
+      "scorebookSection": "Average Impact Factor",
+      "description": "Average Impact Factor\r\nImpact factor (IF) is a measure of the number of times an average paper in a journal is cited, during a year, as developed by Clarivate Analytics.",
+      "lineItemType": "Scholar",
+      "lineItemText": "Scholar with Highest Cumulative Impact Factor",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "8"
+    },
+    {
+      "scoreNumber": "8",
+      "scorebookSection": "Average Cite Score",
+      "description": "Average Cite Score\r\nCiteScore is essentially the average citations per document that a title receives over a three-year period, as developed by Scopus.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Average Cite Score",
+      "lineItemCount": "541",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "1"
+    },
+    {
+      "scoreNumber": "8",
+      "scorebookSection": "Average Cite Score",
+      "description": "Average Cite Score\r\nCiteScore is essentially the average citations per document that a title receives over a three-year period, as developed by Scopus.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Cumulative Cite Score",
+      "lineItemCount": "1050",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "2"
+    },
+    {
+      "scoreNumber": "8",
+      "scorebookSection": "Average Cite Score",
+      "description": "Average Cite Score\r\nCiteScore is essentially the average citations per document that a title receives over a three-year period, as developed by Scopus.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Mean Cite Score",
+      "lineItemCount": "541",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "3"
+    },
+    {
+      "scoreNumber": "8",
+      "scorebookSection": "Average Cite Score",
+      "description": "Average Cite Score\r\nCiteScore is essentially the average citations per document that a title receives over a three-year period, as developed by Scopus.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Median Cite Score",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "4"
+    },
+    {
+      "scoreNumber": "8",
+      "scorebookSection": "Average Cite Score",
+      "description": "Average Cite Score\r\nCiteScore is essentially the average citations per document that a title receives over a three-year period, as developed by Scopus.",
+      "lineItemType": "Faculty",
+      "lineItemText": "Faculty with Highest Average Cite Score",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "5"
+    },
+    {
+      "scoreNumber": "8",
+      "scorebookSection": "Average Cite Score",
+      "description": "Average Cite Score\r\nCiteScore is essentially the average citations per document that a title receives over a three-year period, as developed by Scopus.",
+      "lineItemType": "Scholar",
+      "lineItemText": "Scholar with Highest Average Cite Score",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "6"
+    },
+    {
+      "scoreNumber": "8",
+      "scorebookSection": "Average Cite Score",
+      "description": "Average Cite Score\r\nCiteScore is essentially the average citations per document that a title receives over a three-year period, as developed by Scopus.",
+      "lineItemType": "Faculty",
+      "lineItemText": "Faculty with Highest Cumulative Cite Score",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "7"
+    },
+    {
+      "scoreNumber": "8",
+      "scorebookSection": "Average Cite Score",
+      "description": "Average Cite Score\r\nCiteScore is essentially the average citations per document that a title receives over a three-year period, as developed by Scopus.",
+      "lineItemType": "Scholar",
+      "lineItemText": "Scholar with Highest Cumulative Cite Score",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "8"
+    },
+    {
+      "scoreNumber": "9",
+      "scorebookSection": "Average SNIP",
+      "description": "Average SNIP\r\nSNIP is calculated as the number of citations given in the present year to publications in the past three years divided by the total number of publications in the past three years, as developed by Scopus.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Average SNIP",
+      "lineItemCount": "541",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "1"
+    },
+    {
+      "scoreNumber": "9",
+      "scorebookSection": "Average SNIP",
+      "description": "Average SNIP\r\nSNIP is calculated as the number of citations given in the present year to publications in the past three years divided by the total number of publications in the past three years, as developed by Scopus.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Cumulative SNIP",
+      "lineItemCount": "1050",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "2"
+    },
+    {
+      "scoreNumber": "9",
+      "scorebookSection": "Average SNIP",
+      "description": "Average SNIP\r\nSNIP is calculated as the number of citations given in the present year to publications in the past three years divided by the total number of publications in the past three years, as developed by Scopus.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Mean SNIP",
+      "lineItemCount": "541",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "3"
+    },
+    {
+      "scoreNumber": "9",
+      "scorebookSection": "Average SNIP",
+      "description": "Average SNIP\r\nSNIP is calculated as the number of citations given in the present year to publications in the past three years divided by the total number of publications in the past three years, as developed by Scopus.",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Median SNIP",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "4"
+    },
+    {
+      "scoreNumber": "9",
+      "scorebookSection": "Average SNIP",
+      "description": "Average SNIP\r\nSNIP is calculated as the number of citations given in the present year to publications in the past three years divided by the total number of publications in the past three years, as developed by Scopus.",
+      "lineItemType": "Faculty",
+      "lineItemText": "Faculty with Highest Average SNIP",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "5"
+    },
+    {
+      "scoreNumber": "9",
+      "scorebookSection": "Average SNIP",
+      "description": "Average SNIP\r\nSNIP is calculated as the number of citations given in the present year to publications in the past three years divided by the total number of publications in the past three years, as developed by Scopus.",
+      "lineItemType": "Scholar",
+      "lineItemText": "Scholar with Highest Average SNIP",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "6"
+    },
+    {
+      "scoreNumber": "9",
+      "scorebookSection": "Average SNIP",
+      "description": "Average SNIP\r\nSNIP is calculated as the number of citations given in the present year to publications in the past three years divided by the total number of publications in the past three years, as developed by Scopus.",
+      "lineItemType": "Faculty",
+      "lineItemText": "Faculty with Highest Cumulative SNIP",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "7"
+    },
+    {
+      "scoreNumber": "9",
+      "scorebookSection": "Average SNIP",
+      "description": "Average SNIP\r\nSNIP is calculated as the number of citations given in the present year to publications in the past three years divided by the total number of publications in the past three years, as developed by Scopus.",
+      "lineItemType": "Scholar",
+      "lineItemText": "Scholar with Highest Cumulative SNIP",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "8"
+    },
+    {
+      "scoreNumber": "10",
+      "scorebookSection": "Collaborations",
+      "description": "Collaborations\r\nA measure of the university’s collaborations in publications with authors from within their organization, outside their organziation in India and outside their organization internationally",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Number of international Collaborations",
+      "lineItemCount": "541",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "1"
+    },
+    {
+      "scoreNumber": "10",
+      "scorebookSection": "Collaborations",
+      "description": "Collaborations\r\nA measure of the university’s collaborations in publications with authors from within their organization, outside their organziation in India and outside their organization internationally",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Number of Industry Collaborations",
+      "lineItemCount": "1050",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "2"
+    },
+    {
+      "scoreNumber": "10",
+      "scorebookSection": "Collaborations",
+      "description": "Collaborations\r\nA measure of the university’s collaborations in publications with authors from within their organization, outside their organziation in India and outside their organization internationally",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Number of Govt R&D Laboratories",
+      "lineItemCount": "541",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "3"
+    },
+    {
+      "scoreNumber": "10",
+      "scorebookSection": "Collaborations",
+      "description": "Collaborations\r\nA measure of the university’s collaborations in publications with authors from within their organization, outside their organziation in India and outside their organization internationally",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Number of Hospital/Health-care Collaborations",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "4"
+    },
+    {
+      "scoreNumber": "10",
+      "scorebookSection": "Collaborations",
+      "description": "Collaborations\r\nA measure of the university’s collaborations in publications with authors from within their organization, outside their organziation in India and outside their organization internationally",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Number of National Collaborations",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "5"
+    },
+    {
+      "scoreNumber": "10",
+      "scorebookSection": "Collaborations",
+      "description": "Collaborations\r\nA measure of the university’s collaborations in publications with authors from within their organization, outside their organziation in India and outside their organization internationally",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Number of Home inter-campus collaborations",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "6"
+    },
+    {
+      "scoreNumber": "10",
+      "scorebookSection": "Collaborations",
+      "description": "Collaborations\r\nA measure of the university’s collaborations in publications with authors from within their organization, outside their organziation in India and outside their organization internationally",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Number of Home inter-institute collaborations",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "7"
+    },
+    {
+      "scoreNumber": "10",
+      "scorebookSection": "Collaborations",
+      "description": "Collaborations\r\nA measure of the university’s collaborations in publications with authors from within their organization, outside their organziation in India and outside their organization internationally",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Number of Home inter-department collaborations",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "8"
+    },
+    {
+      "scoreNumber": "10",
+      "scorebookSection": "Collaborations",
+      "description": "Collaborations\r\nA measure of the university’s collaborations in publications with authors from within their organization, outside their organziation in India and outside their organization internationally",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Number of International Authors",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "9"
+    },
+    {
+      "scoreNumber": "10",
+      "scorebookSection": "Collaborations",
+      "description": "Collaborations\r\nA measure of the university’s collaborations in publications with authors from within their organization, outside their organziation in India and outside their organization internationally",
+      "lineItemType": "Faculty",
+      "lineItemText": "Faculty with Highest International Collaborations",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "10"
+    },
+    {
+      "scoreNumber": "10",
+      "scorebookSection": "Collaborations",
+      "description": "Collaborations\r\nA measure of the university’s collaborations in publications with authors from within their organization, outside their organziation in India and outside their organization internationally",
+      "lineItemType": "Scholar",
+      "lineItemText": "Scholar with Highest International Collaborations",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "11"
+    },
+    {
+      "scoreNumber": "11",
+      "scorebookSection": "Rankings",
+      "description": "Rankings\r\n true measure of value of research publciations indicated by publications eligible for various ranking agencies such as NAAC, NIRF, QS, THE, IOE, Shanghai, etc",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Number of NIRF eligible publications",
+      "lineItemCount": "541",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "1"
+    },
+    {
+      "scoreNumber": "11",
+      "scorebookSection": "Rankings",
+      "description": "Rankings\r\n true measure of value of research publciations indicated by publications eligible for various ranking agencies such as NAAC, NIRF, QS, THE, IOE, Shanghai, etc",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Number of NAAC eligible publications",
+      "lineItemCount": "1050",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "2"
+    },
+    {
+      "scoreNumber": "11",
+      "scorebookSection": "Rankings",
+      "description": "Rankings\r\n true measure of value of research publciations indicated by publications eligible for various ranking agencies such as NAAC, NIRF, QS, THE, IOE, Shanghai, etc",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Number of QS Eligible publications",
+      "lineItemCount": "541",
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "3"
+    },
+    {
+      "scoreNumber": "11",
+      "scorebookSection": "Rankings",
+      "description": "Rankings\r\n true measure of value of research publciations indicated by publications eligible for various ranking agencies such as NAAC, NIRF, QS, THE, IOE, Shanghai, etc",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Number of THE eligible publications",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "4"
+    },
+    {
+      "scoreNumber": "11",
+      "scorebookSection": "Rankings",
+      "description": "Rankings\r\n true measure of value of research publciations indicated by publications eligible for various ranking agencies such as NAAC, NIRF, QS, THE, IOE, Shanghai, etc",
+      "lineItemType": "Score Parameter",
+      "lineItemText": "Number of Shanghai eligible publications",
+      "lineItemCount": null,
+      "userImageFileLocation": "https://ciknowledge.sharepoint.com/sites/TeamReseargence/Images",
+      "rowid": "5"
+    }
+  ]

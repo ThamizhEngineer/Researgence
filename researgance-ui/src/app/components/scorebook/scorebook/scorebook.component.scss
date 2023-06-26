@@ -1,0 +1,21 @@
+
+body {
+	line-height: 17px;
+	// line-height: 1.42857143;
+}
+
+p {
+	font-size: 14px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.tab-content{
+    display: none;
+}
+.score-table {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 350px;
+}
